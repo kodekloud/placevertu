@@ -1,3 +1,6 @@
+<div class="container">
+    <div class="row ">
+
 <!-- post 1 CONTENT BLOCK START-->    
 <section id="editor" class="froala-element">
   <a href="#" style="font-size:20px;display:none" id="content_block_5461265b6e6f6470b6000000">Save&nbsp;&nbsp;</a>&nbsp;&nbsp;<span id="status_5461265b6e6f6470b6000000" style="font-size:15px;margin-top:0px;color:#51A351" class="glyphicon glyphicon-ok success" data-toggle="tooltip">Success</span>
@@ -63,6 +66,8 @@
 </section>    
 <!-- post 1 CONTENT BLOCK END -->
 
+</div>
+</div>
 <script>
 $(document).ready(function() {
         
