@@ -1,0 +1,61 @@
+<div class="container"><div class="row">
+    <section>
+        <div id="content-alerts" style="height:120px">
+            <div id="post-deleted-alert" class="alert alert-danger" style="text-align:center;font-size:20px;padding:20px;display:none">Post Deleted</div>
+            <div id="post-copied-alert" class="alert alert-info" style="text-align:center;font-size:20px;padding:20px;display:none">Post Copied</div>
+            <div id="post-saved-alert" class="alert alert-success" style="text-align:center;font-size:20px;padding:20px;display:none">Post Saved</div>
+            <a id="add_new_content_block" href="#" ><div style="border:dashed;border-width: 2px;text-align:center;font-size:20px;padding:20px">Add New Post</div></a><hr>
+        </div>
+        <script>
+            $(function(){
+                $('#add_new_content_block').click(function(event){
+                    event.preventDefault();
+                    $.ajax({
+                        url : "../new_web_content_block_inline",
+                        type: "POST",
+                        data : {authenticity_token: '<%=form_authenticity_token%>' ,
+                                web_page_id: '<%=web_page_id%>'},
+                        success: function(data, textStatus, jqXHR)
+                        {
+                            console.log(textStatus);
+                        },
+                        error: function (jqXHR, textStatus, errorThrown)
+                        {
+                            console.log(textStatus);
+                        }
+                    });
+                    
+                });
+                
+            });
+            
+            
+            $(document).ready(function() {
+                $.ajax({
+                    url : "../all_web_content_block_inline",
+                    type: "POST",
+                    data : {authenticity_token: '<%=form_authenticity_token%>' ,
+                            web_page_id: '<%=web_page_id%>'},
+                    success: function(data, textStatus, jqXHR)
+                    {
+                        console.log(textStatus);
+                    },
+                    error: function (jqXHR, textStatus, errorThrown)
+                    {
+                        console.log(textStatus);
+                    }
+                });
+
+            });
+        
+        </script>
+        
+    </section>
+
+    <div id="all_content_blocks">
+        Loading Blog Entries....
+        
+    </div>
+    
+    </div>
+    </div>
