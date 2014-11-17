@@ -31,6 +31,7 @@
             
             
             $(document).ready(function() {
+                $( "#page_content" ).fadeIn( "fast");
                 $.ajax({
                     url : "../all_web_content_block_inline",
                     type: "POST",
