@@ -149,7 +149,9 @@ img{
     max-width:100%;
     height:auto;
 }
-
+.navbar-default{
+    border:none !important;
+}
 .navbar-default .navbar-toggle .icon-bar{
     color:#000;
     background-color:#000;
