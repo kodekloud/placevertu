@@ -112,8 +112,9 @@
             var promotion_list =  getPromotionsListByStoreName();
             
             $.each( promotion_list , function( key, val ) {
-                console.log(val);
+               
                 localizeObject(val);
+                 console.log(val.description);
             });
  
             
