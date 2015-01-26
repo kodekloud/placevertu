@@ -73,10 +73,35 @@
                   }
             });
             
+            
+            
             $('.clndr-previous-button').html("<");
             $('.clndr-next-button').html(">");
             $('#loading').hide();
             $('#page_content').fadeIn('fast');
+            
+             $.ajax({
+                url : "/web_pages/update_dynamic_page_meta_data",
+                type: "POST",
+                data : {authenticity_token: '<%=form_authenticity_token%>' ,
+                        web_page_id: '<%=web_page_id%>', path:window.location.pathname,
+                        meta_lang:'EN',
+                        meta_title:"Place Vertu | " + event_details.name,
+                        meta_description: event_details.name + event_details.description,
+                        //meta_img: promo_image_url,
+                        meta_keywords:''
+                        
+                        
+                },
+                success: function(data, textStatus, jqXHR)
+                {
+                    
+                },
+                error: function (jqXHR, textStatus, errorThrown)
+                {
+                    
+                }
+            });
         }
         
         loadMallData(renderPageData);
