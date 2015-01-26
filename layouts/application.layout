@@ -605,12 +605,9 @@
                 var navHeight = $('nav').height();
                 var windowTop = $(window).scrollTop() - navHeight; 
                 var sidebarHeight = $('#sidebar').height();
-                console.log(sidebarHeight);
                 var contentHeight = $('#right-content').height();
                 if(sidebarHeight + windowTop < contentHeight){
-                      console.log('test');
                     if ($(window).scrollTop() > 140) {
-                          console.log('over');
                         jQuery('#sidebar').css('top',windowTop+50); 
                     }else{
                         jQuery('#sidebar').css('top',0);
