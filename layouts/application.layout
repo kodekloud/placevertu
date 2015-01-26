@@ -608,7 +608,7 @@
                 var contentHeight = $('#right-content').height();
                 if(sidebarHeight + windowTop < contentHeight){
                       console.log('test');
-                    if ($(window).scrollTop() > 140) {
+                    if ($(window).scrollTop() > 190) {
                           console.log('over');
                         jQuery('#sidebar').css('top',windowTop); 
                     }else{
