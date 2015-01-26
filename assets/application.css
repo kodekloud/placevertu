@@ -682,6 +682,7 @@ footer .nav>li>a{
 }
 
 
+
 .promotion-list-item{
     padding-top:20px;
     padding-bottom:20px;
@@ -690,6 +691,10 @@ footer .nav>li>a{
 	border-top:0px;
 	border-left:0px;
 	border-right:0px;
+}
+
+.promo-details{
+    margin-top:10px;
 }
 
 .promo-details .name a{
