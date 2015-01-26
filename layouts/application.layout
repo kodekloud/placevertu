@@ -604,10 +604,10 @@
           jQuery(window).scroll(function(){
                 var navHeight = $('nav').height();
                 var windowTop = $(window).scrollTop() - navHeight; 
-                console.log(navHeight);
                 var sidebarHeight = $('#sidebar').height();
                 var contentHeight = $('#right-content').height();
                 if(sidebarHeight + windowTop < contentHeight){
+                      console.log('test');
                     if ($(window).scrollTop() > 190) {
                         jQuery('#sidebar').css('top',windowTop); 
                     }else{
