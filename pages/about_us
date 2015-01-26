@@ -684,7 +684,7 @@
             </div>
 
         </div>
-        <div class="col-xs-12 col-sm-4 col-sm-pull-8 col-md-3 col-md-pull-9">
+        <div class="col-xs-12 col-sm-4 col-sm-pull-8 col-md-3 col-md-pull-9" id="sidebar">
             <h1 class="hidden-xs" data-i18n="nav.about"><!--About Us--></h1>
             <img src="http://d33wyx0pza9yj4.cloudfront.net/sites/5431987c6e6f64102a020000/4d412bf5c9fdf38eed9830f9db5fa28a/img_aboutus.jpg" class="hidden-xs">
             <ul class="button-panel">
