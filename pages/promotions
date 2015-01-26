@@ -109,7 +109,6 @@
         function renderPageData(){
             var promotion_list = getPromotionsListByStoreName();
             
-            var promotion_list =  getPromotionsListByStoreName();
             
             $.each( promotion_list , function( key, val ) {
                
