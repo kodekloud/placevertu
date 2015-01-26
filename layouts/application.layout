@@ -610,7 +610,7 @@
                       console.log('test');
                     if ($(window).scrollTop() > 190) {
                           console.log('over');
-                        jQuery('#sidebar').css('top',windowTop); 
+                        jQuery('#sidebar').css('top',windowTop+50); 
                     }else{
                         jQuery('#sidebar').css('top',0);
                     }
