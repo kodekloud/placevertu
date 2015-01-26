@@ -153,6 +153,12 @@ img{
     height:auto;
 }
 
+.carousel {
+    margin: 0 auto;
+    position: relative;
+    width: 80%;
+}
+
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
     width: 100% !important;
 }
