@@ -203,20 +203,8 @@
         
         function renderPageData(){
             var promotion_list = getPromotionsListByStoreName();
-            // if(getRequestParam('lang') == 'fr'){
-            //     promotion_list.name = promotion_list.name_2;
-            //     promotion_list.rich_description =  promotion_list.description_2;
-            //     promotion_list.promo_image_url =  promotion_list.promo_image2_url;
-            //     promotion_list.promo_image_url_abs = promotion_list.promo_image2_url_abs;
-            //     promotion_list.promo_image_updated_at = promotion_list.promo_image2_updated_at;
-                
-            //     console.log(promotion_list.name);
-            // }
-            // if(getRequestParam('lang') == 'en'){
-            //     console.log('en');
-            // }
-             renderPromotionsListTemplate('#promotion_item_template','#promotion_item_template_no_image','#promotion_list','#promotions_not_empty_section','#promotions_empty_section', promotion_list);
-           var promotion_list2 = getPromotionsListByStoreName()
+            renderPromotionsListTemplate('#promotion_item_template','#promotion_item_template_no_image','#promotion_list','#promotions_not_empty_section','#promotions_empty_section', promotion_list);
+            var promotion_list2 = getPromotionsListByStoreName();
             renderPromotionsListTemplate('#promotion_item_template2','#promotion_item_template_no_image2','#promotion_list2','#promotions_not_empty_section2','#promotions_empty_section2', promotion_list2);
             renderStoresWithPromotionsTemplate('#store_item_template','#stores_with_promotions');
             renderStoresWithPromotionsTemplate('#store_item_template2','#stores_with_promotions2');
