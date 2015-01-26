@@ -1,5 +1,35 @@
 <div class="home">
-    <img class="banner" src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/9000b27d8947cd304731715f26abe5d7/img_banner.jpg">
+     <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
+          <!-- Indicators -->
+            <ol class="carousel-indicators" id="banner_indicator" style="{{show_style}}">
+                <script id="indicator_template" type="x-tmpl-mustache">
+                    <li data-slide-to="{{slide_number}}" data-target="#carousel-example-generic" class="{{active_carousel}}"></li>                        
+                </script>
+            </ol>
+            
+              <!-- Wrapper for slides -->
+            <div class="carousel-inner" id="home_banner">
+            
+                <script id="banner_template" type="x-tmpl-mustache">
+               <div class="item">
+                        <a href="{{url}}" {{css}} onclick="{{noLink}}">
+                      <img alt="..." src="{{photo_url_abs}}">
+                      </a>
+                </div>
+            
+                </script>
+            </div>
+            
+            <div id="controls">
+              <!-- Controls -->
+              <a data-slide="prev" role="button" href="#carousel-example-generic" class="left carousel-control">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+              </a>
+              <a data-slide="next" role="button" href="#carousel-example-generic" class="right carousel-control">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+              </a>
+              </div>
+        </div>
     <div class="container">
         <div class="row feature-items">
             <div class="col-sm-12 col-sm-6 col-md-3 feature-item">
