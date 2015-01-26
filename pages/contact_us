@@ -4,12 +4,12 @@
             <h1 class="visible-xs" data-i18n="nav.contact"><!--CONTACT--></h1>
             
             <!--DIRECTIONS-->
-            <a name="directions"></a>
+            <a class="anchor" name="directions"></a>
             <h2 data-i18n="nav.subnav.directions">&nbsp;</h2>
             <div style="min-height:350px">
             <%=/centre_address_map%>
             </div>
-            <a name="how_to_get_here"></a>
+            <a class="anchor" name="how_to_get_here"></a>
             <h2 data-i18n="nav.subnav.how_to_get_here"><!--HOW TO GET HERE-->&nbsp;</h2>
             <div class="primary-locale">
                 <!-- How to Get Here (English) CONTENT BLOCK START-->    
@@ -145,7 +145,7 @@
             </div>
                 
             <!--PARKING INFORMATION-->
-            <a name="parking_information"></a>
+            <a class="anchor" name="parking_information"></a>
             <h2 data-i18n="nav.subnav.parking_information"><!--PARKING INFORMATION-->&nbsp;</h2>
             <div class="primary-locale">
                 <!-- Parking (English) CONTENT BLOCK START-->    
@@ -283,7 +283,7 @@
         
             
             <!--ADMINISTRATION HOURS-->
-            <a name="administration_hours"></a>
+            <a class="anchor" name="administration_hours"></a>
             <h2 data-i18n="nav.subnav.administration_hours"><!--ADMINISTRATION HOURS--></h2>
             <div class="primary-locale">
                 <!-- Administration Hours (English) CONTENT BLOCK START-->    
@@ -419,7 +419,7 @@
             </div>
             
             <!--ACCESSIBILITY-->
-            <a name="accessibility"></a>
+            <a class="anchor" name="accessibility"></a>
             <h2 data-i18n="nav.subnav.accessibility"><!--ACCESSIBILITY--></h2>
             <div class="primary-locale">
                 <!-- Accessibility (English) CONTENT BLOCK START-->    
@@ -555,7 +555,7 @@
             </div>
             
                 <!--CENTRE HOURS-->
-            <a name="opening_hours"></a>
+            <a class="anchor" name="opening_hours"></a>
             <%=/centre_hours%>
             <div class="primary-locale">
                 <!-- Store Hours (English) CONTENT BLOCK START-->    
