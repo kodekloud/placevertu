@@ -607,10 +607,10 @@
                 var sidebarHeight = $('#sidebar').height();
                 var contentHeight = $('#right-content').height();
                 if(sidebarHeight + windowTop < contentHeight){
-                if ($(window).scrollTop() > 140) {
-                    jQuery('#sidebar').css('top',windowTop); 
+                    if ($(window).scrollTop() > 140) {
+                        jQuery('#sidebar').css('top',windowTop); 
                     }else{
-                    jQuery('#sidebar').css('top',0);
+                        jQuery('#sidebar').css('top',0);
                     }
                 }
             });
