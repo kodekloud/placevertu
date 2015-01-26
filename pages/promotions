@@ -114,6 +114,9 @@
                 
                 console.log(promotion_list.name);
             }
+            if(getRequestParam('lang') == 'en'){
+                
+            }
             renderPromotionsListTemplate('#promotion_item_template','#promotion_item_template_no_image','#promotion_list','#promotions_not_empty_section','#promotions_empty_section', promotion_list);
             renderStoresWithPromotionsTemplate('#store_item_template','#stores_with_promotions');
             $('#loading').hide();
