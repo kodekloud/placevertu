@@ -602,7 +602,6 @@
         } else {
      
           jQuery(window).scroll(function(){
-                     console.log('test');
                 var navHeight = $('nav').height();
                 var windowTop = $(window).scrollTop() - navHeight; 
                 var sidebarHeight = $('#sidebar').height();
