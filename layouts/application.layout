@@ -580,20 +580,7 @@
                 $('#search_input_mobile').val('')
             });
             
-            
-            
-        
-        });
-        
-        
-        function checkErrorPage(detailObj){
-            if (typeof detailObj === "undefined") {
-                window.location.replace("/404");
-            }
-        }
-        
-        
-        //sticky sidebar
+             //sticky sidebar
 
         if( $(window).width() < 767){
             $('#sidebar').removeAttr('id');
@@ -612,6 +599,19 @@
                 }
             });
          }
+            
+        
+        });
+        
+        
+        function checkErrorPage(detailObj){
+            if (typeof detailObj === "undefined") {
+                window.location.replace("/404");
+            }
+        }
+        
+        
+       
     </script>
 </body>
 
