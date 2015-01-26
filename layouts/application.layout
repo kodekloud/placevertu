@@ -605,6 +605,7 @@
                 var navHeight = $('nav').height();
                 var windowTop = $(window).scrollTop() - navHeight; 
                 var sidebarHeight = $('#sidebar').height();
+                console.log(sidebarHeight);
                 var contentHeight = $('#right-content').height();
                 if(sidebarHeight + windowTop < contentHeight){
                       console.log('test');
