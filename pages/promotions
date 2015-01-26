@@ -111,6 +111,8 @@
                 promotion_list.promo_image_url =  promotion_list.promo_image2_url;
                 promotion_list.promo_image_url_abs = promotion_list.promo_image2_url_abs;
                 promotion_list.promo_image_updated_at = promotion_list.promo_image2_updated_at;
+                
+                console.log(promotion_list.name);
             }
             renderPromotionsListTemplate('#promotion_item_template','#promotion_item_template_no_image','#promotion_list','#promotions_not_empty_section','#promotions_empty_section', promotion_list);
             renderStoresWithPromotionsTemplate('#store_item_template','#stores_with_promotions');
