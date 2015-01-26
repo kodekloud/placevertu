@@ -603,7 +603,8 @@
      
           jQuery(window).scroll(function(){
                 var navHeight = $('nav').height();
-                var windowTop = $(window).scrollTop(); 
+                var windowTop = $(window).scrollTop() - navHeight; 
+                console.log(navHeight);
                 var sidebarHeight = $('#sidebar').height();
                 var contentHeight = $('#right-content').height();
                 if(sidebarHeight + windowTop < contentHeight){
