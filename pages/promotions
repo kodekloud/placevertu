@@ -15,7 +15,7 @@
                         <div class="panel-body list-group" id="stores_with_promotions">
                             <script id="store_item_template" type="x-tmpl-mustache">
                                 <a class="list-group-item" href="#{{name}}">
-                                   asdfsadf {{name}}
+                                    {{name}}
                                 </a>
                             </script>
                         </div>
