@@ -1,12 +1,12 @@
 <div class="container">
     <div class="row">
-        <div class="col-xs-12 col-sm-4 col-md-3">
+        <div class="col-xs-12 col-sm-4 col-md-3" id="sidebar">
             <h1><a href="../events" data-i18n="nav.events"></a></h1>
             <center id="cal1" class="cal1">
                 <div class="date" id="clndr"></div>
             </center>
         </div>
-        <div class="col-xs-12 col-sm-8 col-md-9">
+        <div class="col-xs-12 col-sm-8 col-md-9" id="right-content">
             <div class="events" id="events_details_id">
                 <!-- START MUSTACHE TEMPLATE FOR EVENT ITEM-->
                 <script id="event_details_template" type="x-tmpl-mustache">
