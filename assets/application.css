@@ -266,6 +266,11 @@ img{
     
 }
 
+.store_anchor {
+    height: 60px;
+    margin-top: -60px;
+}
+
 .anchor {
     display: block;
     height: 60px;
