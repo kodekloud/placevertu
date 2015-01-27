@@ -613,6 +613,10 @@ footer .nav>li>a{
     padding-bottom:3px;
 }
 
+.job-list{
+    margin-top: 20px;
+}
+
 .jobs-flag{
     margin-left:20px;
     background-color:#0685b0;
