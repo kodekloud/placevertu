@@ -88,7 +88,7 @@
             </div>
             <script id="store_header_template" type="x-tmpl-mustache">
                 
-                <a class="list-group-item store-anchor" name="{{header_id}}">
+                <a class="list-group-item" name="{{header_id}}">
                     <h2>{{header}}</h2>
                 </a>
             </script>
