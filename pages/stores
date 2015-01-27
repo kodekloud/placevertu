@@ -61,7 +61,7 @@
                     <div id="collapseTwo" class="panel-collapse collapse">
                         <div class="panel-body store-categories list-group" id="store_categories">
                             <script id="category_item_template" type="x-tmpl-mustache">
-                                <a class="list-group-item" href="#cat_{{id}}">{{name}}</a>
+                                <a class="list-group-item anchor" href="#cat_{{id}}">{{name}}</a>
                             </script>
                         </div>
                     </div>
