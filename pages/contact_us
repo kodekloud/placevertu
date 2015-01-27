@@ -699,9 +699,9 @@
                 <li><a href="#directions" class="btn btn-default"><span data-i18n="nav.subnav.directions"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--DIRECTIONS--></a></li>
                 <li><a href="#how_to_get_here" class="btn btn-default" ><span data-i18n="nav.subnav.how_to_get_here"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--HOW TO GET HERE--></a></li>
                 <li><a href="#parking_information" class="btn btn-default"><span data-i18n="nav.subnav.parking_information"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--PARKINING INFORMATION--></a></li>
-                <li><a href="#opening_hours" class="btn btn-default" ><span data-i18n="nav.subnav.opening_hours"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--OPENING HOURS--></a></li>
                 <li><a href="#administration_hours" class="btn btn-default"><span data-i18n="nav.subnav.administration_hours"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--ADMINISTRATION HOURS--></a></li>
                 <li><a href="#accessibility" class="btn btn-default"><span data-i18n="nav.subnav.accessibility"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--ACCESSIBILITY--></a></li>
+                <li><a href="#opening_hours" class="btn btn-default" ><span data-i18n="nav.subnav.opening_hours"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--OPENING HOURS--></a></li>
             </ul>
         </div>
     </div>
