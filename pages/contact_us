@@ -704,7 +704,7 @@
             </ul>
         </div>
     </div>
-</div>
+
 <script>
     $(document).ready(function() {
         $('#loading').hide();
