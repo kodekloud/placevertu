@@ -7,7 +7,7 @@
 </div>
 <div class="container store-list">
     <div class="row">
-        <div class="col-xs-12 col-sm-4 col-md-3" id="">
+        <div class="col-xs-12 col-sm-4 col-md-3" id="sidebar">
             <div id="">
             <h1 data-i18n="nav.stores"></h1>
             <div class="panel-group" id="accordion">
@@ -69,7 +69,7 @@
             </div>          
         </div>
         </div>
-        <div class="col-xs-12 col-sm-8 col-md-9">
+        <div class="col-xs-12 col-sm-8 col-md-9" id="right-content">
 
             <div style="overflow:hidden">
             <div id="zControls">
