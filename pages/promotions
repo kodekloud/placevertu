@@ -112,8 +112,8 @@
             
             $.each( promotion_list , function( key, val ) {
                
-                localizeObject(val);
-                 console.log(val.description);
+                //ocalizeObject(val);
+                //console.log(val.description);
             });
  
             
