@@ -93,7 +93,7 @@
                 </a>
             </script>
             <script id="store_item_template" type="x-tmpl-mustache">
-                <a class="list-group-item" href="../stores/{{slug}}">
+                <a class="list-group-item store-anchor" href="../stores/{{slug}}">
                     {{name}}
                     <span class="promotions-flag" style="display:{{has_promotions_css}}" data-i18n="general.promotion"></span>
                     <span class="jobs-flag" style="display:{{has_jobs_css}}" data-i18n="general.career"></span>
