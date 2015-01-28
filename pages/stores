@@ -98,7 +98,7 @@
                     <span class="store-name">{{name}}</span>
                     <span class="promotions-flag" style="display:{{has_promotions_css}}" data-i18n="general.promotion"></span>
                     <span class="jobs-flag" style="display:{{has_jobs_css}}" data-i18n="general.career"></span>
-                    <span class="pull-right">{{phone}}</span>
+                    <span class="store-phone pull-right">{{phone}}</span>
                 </a>
             </script>
         </div>
