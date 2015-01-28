@@ -853,6 +853,12 @@ footer .nav>li>a{
         border: 1px solid #000000;
     }
     
+    .store-name{
+        display: inline-block;
+        width:50%;
+    }
+    
+    
     .nav-items{
         padding-left:0px;
         padding-right:0px;
