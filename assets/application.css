@@ -839,6 +839,10 @@ footer .nav>li>a{
 
 
 @media(max-width:767px){
+    .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
     .page_content{
         margin-top:0px;
         padding-top:10px;
