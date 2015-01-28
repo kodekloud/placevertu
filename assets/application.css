@@ -854,8 +854,17 @@ footer .nav>li>a{
     }
     
     .store-name{
+        width:200px;
         display: inline-block;
-        width:50%;
+    }
+    
+    .promotions-flag{
+        display: inline-block;
+    }
+    
+    .store-phone{
+        width: 96px;
+        display: inline-block;
     }
     
     
