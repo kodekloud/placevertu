@@ -861,7 +861,9 @@ footer .nav>li>a{
     .promotions-flag{
         display: inline-block;
     }
-    
+    .jobs-flag{
+        display: inline-block;
+    }
     .store-phone{
         width: 96px;
         display: inline-block;
