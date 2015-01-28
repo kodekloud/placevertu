@@ -849,6 +849,10 @@ footer .nav>li>a{
         min-height:400px;
     }
     
+    .map-border{
+        border: 1px solid #000000;
+    }
+    
     .nav-items{
         padding-left:0px;
         padding-right:0px;
