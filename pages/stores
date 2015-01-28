@@ -77,7 +77,7 @@
                 <button class="zoom-out"><span class="glyphicon glyphicon-minus"></span></button>
                 
             </div>
-            <div id="map" class="panzoom-elements" style=""></div>
+            <div id="map" class="panzoom-elements map-border" style=""></div>
             </div>
             
             <div class="list-group" id="store_list">
