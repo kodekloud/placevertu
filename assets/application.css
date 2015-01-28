@@ -865,7 +865,7 @@ footer .nav>li>a{
         display: inline-block;
     }
     .store-phone{
-        width: 96px;
+        max-width: 150px;
         display: inline-block;
     }
     
