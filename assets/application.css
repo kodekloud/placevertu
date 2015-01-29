@@ -619,7 +619,7 @@ footer .nav>li>a{
 .promotions-flag{
     
     margin-left:10px;
-    background-image: url("http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/76bb02080494d5c249e583bcc5002b63/promo.png") no-repeat !important;
+    background-image: url("http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/76bb02080494d5c249e583bcc5002b63/promo.png") no-repeat;
     width: 16px;
     height: 16px;
 }
