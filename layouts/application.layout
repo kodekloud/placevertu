@@ -632,7 +632,7 @@
         if( $(window).width() < 767){
             $('#sidebar').removeAttr('id');
         } else {
-          jQuery(window).scroll(function(){
+            jQuery(window).scroll(function(){
                 var navHeight = $('nav').height();
                 var windowTop = $(window).scrollTop() - navHeight + 50; 
                 var sidebarHeight = $('#sidebar').height();
