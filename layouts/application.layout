@@ -280,7 +280,7 @@
                         </ul>
                     </li>
                     <li class="page-scroll dropdown" style="">
-                        <a href="../contact_us" data-i18n="nav.contact">
+                        <a href="../contact_us" data-i18n="nav.contact"> 
                             <span data-i18n="nav.contact"></span>
                             <img src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/76bb02080494d5c249e583bcc5002b63/icon_whitearrow_down.png" class="dropdown-arrow" alt="">
                         </a>
