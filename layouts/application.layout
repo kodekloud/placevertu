@@ -260,7 +260,7 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="page-scroll dropdown" style="">
+                    <li class="page-scroll" style="">
                         <a href="../jobs" data-i18n="nav.jobs"></a>
                     </li>
                     <li class="page-scroll dropdown" style="">
@@ -273,7 +273,7 @@
                             <li><a href="/about_us#contract_policy"><span data-i18n="nav.subnav.contract_policy"></span></a></li>
                         </ul>
                     </li>
-                    <li class="page-scroll" style="">
+                    <li class="page-scroll dropdown" style="">
                         <a href="../contact_us" data-i18n="nav.contact"></a>
                         <ul class="dropdown-menu">
                         	<li><a href="/contact_us#directions" class=""><span data-i18n="nav.subnav.directions"></span><!--DIRECTIONS--></a></li>
