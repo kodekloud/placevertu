@@ -844,7 +844,7 @@ footer .nav>li>a{
     }
     
     .store-name{
-        max-width:190px;
+        width:190px;
         display: inline-block;
     }
     
@@ -855,7 +855,7 @@ footer .nav>li>a{
         display: inline-block;
     }
     .store-phone{
-        max-width: 150px;
+        width:  25px;
         display: inline-block;
     }
     
