@@ -904,7 +904,7 @@ footer .nav>li>a{
         display: block;    
     } 
     .dropdown-menu {
-        left: 45px;
+        left: 0px;
         background-color: #000000;
         color: #ffffff;
         padding-bottom: 15px;
