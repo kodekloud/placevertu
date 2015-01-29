@@ -30,31 +30,8 @@
    stroke: #000;
    fill:   #66FFFF;
 }
-    
-ul.nav li.dropdown:hover > ul.dropdown-menu {
-    display: block;    
-}    
-    
-.dropdown-menu {
-    left: 45px;
-    background-color: #000000;
-    color: #ffffff;
-    padding-bottom: 15px;
-}  
+  
 
-.dropdown-menu>li>a {
-   color: #ffffff;
-}
-
-.dropdown-arrow{
-    width: 16px;
-    margin-left: 5px;
-    padding-bottom: 3px;
-}
-
-.navbar-nav>li>.dropdown-menu {
-    margin-top: -1px;
-}
 
 #pop-over{
     position:absolute;
@@ -926,6 +903,26 @@ footer .nav>li>a{
     ul.nav li.dropdown:hover > ul.dropdown-menu {
         display: block;    
     } 
+    .dropdown-menu {
+        left: 45px;
+        background-color: #000000;
+        color: #ffffff;
+        padding-bottom: 15px;
+    }  
+    
+    .dropdown-menu>li>a {
+       color: #ffffff;
+    }
+    
+    .dropdown-arrow{
+        width: 16px;
+        margin-left: 5px;
+        padding-bottom: 3px;
+    }
+    
+    .navbar-nav>li>.dropdown-menu {
+        margin-top: -1px;
+    }
 
 }
 
