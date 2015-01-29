@@ -15,7 +15,7 @@
             <h1 class="visible-xs" data-i18n="nav.about"><!--About Us--></h1>
             
             <!--PARKING INFORMATION-->
-            <a name="place_vertu"></a>
+            <a class="anchor" name="place_vertu"></a>
             <h2 data-i18n="nav.subnav.place_vertu"><!--PLACE VERTU-->&nbsp;</h2>
             <div class="primary-locale">
                 <!-- About (English) CONTENT BLOCK START-->    
@@ -151,7 +151,7 @@
             </div>
             
             <!--LEASING INFORMATION-->
-            <a name="leasing_information"></a>
+            <a  class="anchor" name="leasing_information"></a>
             <h2 data-i18n="nav.subnav.leasing_information"><!--LEASING INFORMATION-->&nbsp;</h2>
             <div class="primary-locale">
                 <!-- Leasing (English) CONTENT BLOCK START-->    
@@ -287,7 +287,7 @@
             </div>
             
             <!--CHARITIES-->
-            <a name="charities"></a>
+            <a  class="anchor" name="charities"></a>
             <h2 data-i18n="nav.subnav.charities"><!--CHARITIES-->&nbsp;</h2>
             <div class="primary-locale">
                 <!-- Charities (English) CONTENT BLOCK START-->    
@@ -423,7 +423,7 @@
             </div>
             
             <!--GREEN INITIATIVES-->
-            <a name="green_initiatives"></a>
+            <a  class="anchor" name="green_initiatives"></a>
             <h2 data-i18n="nav.subnav.green_initiatives"><!--GREEN INITIATIVES--></h2>
             <div class="primary-locale">
                 <!-- Green Initiatives (English) CONTENT BLOCK START-->    
@@ -559,7 +559,7 @@
             </div>
             
             <!--CONTRACT POLICY-->
-            <a name="contract_policy"></a>
+            <a  class="anchor" name="contract_policy"></a>
             <h2 data-i18n="nav.subnav.contract_policy"><!--CONTRACT POLICY--></h2>
             <div class="primary-locale">
                 <!-- Contract Policy (English) CONTENT BLOCK START-->    
