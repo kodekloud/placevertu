@@ -39,7 +39,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     left: 45px;
     background-color: #000000;
     color: #ffffff;
-    padding-bottom:20px;
+    padding-bottom: 15px;
 }  
 
 .dropdown-menu>li>a {
