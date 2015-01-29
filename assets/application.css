@@ -892,6 +892,13 @@ footer .nav>li>a{
 }
 
 @media(min-width:768px){
+     .visible-phone{
+        display: none;
+    }
+    
+    .hidden-phone{
+        display: inline;
+    }
     .navbar-nav > li{
         padding-left:2px;
         padding-right:2px;
