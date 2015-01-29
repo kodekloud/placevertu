@@ -825,6 +825,10 @@ footer .nav>li>a{
         display: inline;
     }
     
+    .hidden-phone{
+        display: none;
+    }
+    
     .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
         margin-right: 0px;
         margin-left: 0px;
