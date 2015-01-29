@@ -36,10 +36,14 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }    
     
 .dropdown-menu {
-    left:45px !important;
-    background-color: #000000 !important;
-    color: #ffffff !important;
+    left: 45px;
+    background-color: #000000;
+    color: #ffffff;
 }  
+
+.dropdown-menu>li>a {
+   color: #ffffff;
+}
 
 #pop-over{
     position:absolute;
