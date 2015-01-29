@@ -618,7 +618,9 @@ footer .nav>li>a{
 
 .promotions-flag{
     margin-left:10px;
-     background-image: url("paper.gif");
+    background-image: url("http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/76bb02080494d5c249e583bcc5002b63/promo.png");
+    width: 16px;
+    height: 16px;
 }
 
 #jobs_list{
@@ -627,12 +629,7 @@ footer .nav>li>a{
 
 .jobs-flag{
     margin-left:20px;
-    background-color:#0685b0;
-    padding-left:10px;
-    padding-right:10px;
-    color:#FFF;
-    padding-top:5px;
-    padding-bottom:3px;
+       background-image: url("http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/76bb02080494d5c249e583bcc5002b63/job.png");
 }
 
 .store-list .categories .list-group-item{
