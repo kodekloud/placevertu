@@ -30,7 +30,11 @@
    stroke: #000;
    fill:   #66FFFF;
 }
-        
+    
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}    
+    
 #pop-over{
     position:absolute;
     min-height:60px;
