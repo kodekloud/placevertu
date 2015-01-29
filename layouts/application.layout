@@ -241,8 +241,10 @@
                         <a href="../events" data-i18n="nav.events"></a>
                     </li>
                     <li class="page-scroll dropdown" style="">
-                        <a class="" href="../customer_services" data-i18n="nav.services"></a>
-                        <img src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/76bb02080494d5c249e583bcc5002b63/icon_whitearrow_down.png" class="" alt="">
+                        <a class="" href="../customer_services">
+                            <span  data-i18n="nav.services"></span> 
+                            <img src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/76bb02080494d5c249e583bcc5002b63/icon_whitearrow_down.png" class="" alt="">
+                        </a>
                         <ul class="dropdown-menu">
                         	<li>
                                 <a href="/customer_services#gift_cards" data-i18n="nav.subnav.gift_cards"></a>
