@@ -918,11 +918,14 @@ footer .nav>li>a{
     
 }
 
-@media(min-width:768pxpx){
+@media(min-width:768px){
     .navbar-nav > li{
         padding-left:2px;
         padding-right:2px;
     }
+    ul.nav li.dropdown:hover > ul.dropdown-menu {
+        display: block;    
+    } 
 
 }
 
