@@ -97,12 +97,15 @@
                 <a class="list-group-item" href="../stores/{{slug}}">
                     <span class="store-name">{{name}}</span>
                     <span class="promotions-flag" style="display:{{has_promotions_css}}">
-                        
+                        <img style="width:23px; height:23px;" src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/76bb02080494d5c249e583bcc5002b63/promo.png" class="" alt="">
                     </span>
                     <span class="jobs-flag" style="display:{{has_jobs_css}}">
-                    
+                        <img style="width:23px; height:23px;" src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/76bb02080494d5c249e583bcc5002b63/job.png" class="" alt="">
                     </span>
-                    <span class="store-phone pull-right">{{phone}}</span>
+                    <span class="store-phone pull-right hidden-phone">{{phone}}</span>
+                    <span class="store-phone pull-right visible-phone">
+                        <img style="width:23px; height:23px;" src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/76bb02080494d5c249e583bcc5002b63/call.png" class="" alt="">
+                    </span>
                 </a>
             </script>
         </div>
