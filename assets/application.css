@@ -912,6 +912,7 @@ footer .nav>li>a{
     
     .dropdown-menu>li>a {
        color: #ffffff;
+       text-transform: uppercase;
     }
     
     .dropdown-arrow{
