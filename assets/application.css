@@ -844,19 +844,20 @@ footer .nav>li>a{
     }
     
     .store-name{
-        width:190px;
+        width:250px;
         display: inline-block;
     }
     
     .promotions-flag{
+        width:25px;
         display: inline-block;
     }
     .jobs-flag{
+        width:25px;
         display: inline-block;
     }
     .store-phone{
         width:  25px;
-        display: inline-block;
     }
     
     
