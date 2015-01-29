@@ -242,6 +242,16 @@
                     </li>
                     <li class="page-scroll" style="">
                         <a href="../customer_services" data-i18n="nav.services"></a>
+                        <ul class="dropdown-menu">
+                        	<li class="menu-style-file"><a href="/style_file">Style File</a></li>
+                        	<li class="menu-shop-the-look"><a href="/shop">Shop the Look</a></li>
+                        	<li class="menu-opposites-attract"><a href="/attract">Opposites Attract</a></li>
+                        	<li class="menu-spotted"><a href="/spotted">Spotted</a></li>
+                        	<li class="menu-consultations"><a href="/consultations">Consultations</a></li>
+                        	<li class="menu-style-setters"><a href="/setters">Style Setters</a></li>
+                        </ul>
+                        
+                        
                     </li>
                     <li class="page-scroll" style="">
                         <a href="../jobs" data-i18n="nav.jobs"></a>
