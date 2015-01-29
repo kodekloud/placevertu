@@ -915,12 +915,6 @@ footer .nav>li>a{
        text-transform: uppercase;
     }
     
-    .dropdown-arrow{
-        width: 16px;
-        margin-left: 5px;
-        padding-bottom: 3px;
-    }
-    
     .navbar-nav>li>.dropdown-menu {
         margin-top: -1px;
     }
