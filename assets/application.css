@@ -830,14 +830,6 @@ footer .nav>li>a{
     border-radius:0px;
 }
 
-
-
-
-
-
-
-
-
 @media(max-width:767px){
     .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
         margin-right: 0px;
