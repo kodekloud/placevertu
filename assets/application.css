@@ -822,11 +822,11 @@ footer .nav>li>a{
 
 @media(max-width:767px){
     .visible-phone{
-        display: inline;
+        display: inline !important;
     }
     
     .hidden-phone{
-        display: none;
+        display: none !important;
     }
     
     .container>.navbar-header, .container-fluid>.navbar-header, .container>.navbar-collapse, .container-fluid>.navbar-collapse {
@@ -893,11 +893,11 @@ footer .nav>li>a{
 
 @media(min-width:768px){
      .visible-phone{
-        display: none;
+        display: none !important;
     }
     
     .hidden-phone{
-        display: inline;
+        display: inline !important;
     }
     .navbar-nav > li{
         padding-left:2px;
