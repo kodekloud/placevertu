@@ -243,12 +243,21 @@
                     <li class="page-scroll dropdown" style="">
                         <a class="" href="../customer_services" data-i18n="nav.services"></a>
                         <ul class="dropdown-menu">
-                        	<li><a href="/style_file">Style File</a></li>
-                        	<li><a href="/shop">Shop the Look</a></li>
-                        	<li><a href="/attract">Opposites Attract</a></li>
-                        	<li><a href="/spotted">Spotted</a></li>
-                        	<li><a href="">Consultations</a></li>
-                        	<li><a href="/setters">Style Setters</a></li>
+                        	<li>
+                                <a href="/customer_services#gift_cards" data-i18n="nav.subnav.gift_cards"></a>
+                            </li>
+                            <li>
+                                <a href="/customer_services#customer_services" data-i18n="nav.subnav.customer_services"></a>
+                            </li>
+                            <li>
+                                <a href="/customer_services#fitness_walking_club" data-i18n="nav.subnav.fitness_walking_club"></a>
+                            </li>
+                            <li>
+                                <a href="/customer_services#welcome_to_families" data-i18n="nav.subnav.welcome_to_families"></a>
+                            </li>
+                            <li>
+                                <a href="/customer_services#wifi" data-i18n="nav.subnav.wifi"></a>
+                            </li>
                         </ul>
                         
                         
