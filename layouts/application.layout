@@ -241,10 +241,7 @@
                         <a href="../events" data-i18n="nav.events"></a>
                     </li>
                     <li class="page-scroll dropdown" style="">
-                        <a class="" href="../customer_services">
-                            <span  data-i18n="nav.services"></span> 
-                            <img src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/76bb02080494d5c249e583bcc5002b63/icon_whitearrow_down.png" class="dropdown-arrow" alt="">
-                        </a>
+                        <a class="" href="../customer_services" data-i18n="nav.services"></a>
                         <ul class="dropdown-menu">
                         	<li>
                                 <a href="/customer_services#gift_cards" data-i18n="nav.subnav.gift_cards"></a>
@@ -267,10 +264,7 @@
                         <a href="../jobs" data-i18n="nav.jobs"></a>
                     </li>
                     <li class="page-scroll dropdown" style="">
-                        <a href="../about_us">
-                            <span data-i18n="nav.about"></span>
-                            <img src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/76bb02080494d5c249e583bcc5002b63/icon_whitearrow_down.png" class="dropdown-arrow" alt="">
-                        </a>
+                        <a href="../about_us" data-i18n="nav.about"></a></a>
                         <ul class="dropdown-menu">
                             <li><a href="/about_us#place_vertu"  ><span data-i18n="nav.subnav.place_vertu"></span></a></li>
                             <li><a href="/about_us#leasing_information" ><span data-i18n="nav.subnav.leasing_information"></span><!--LEASING INFORMATION--></a></li>
@@ -280,10 +274,7 @@
                         </ul>
                     </li>
                     <li class="page-scroll dropdown" style="">
-                        <a href="../contact_us"> 
-                            <span data-i18n="nav.contact"></span>
-                            <img src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/76bb02080494d5c249e583bcc5002b63/icon_whitearrow_down.png" class="dropdown-arrow" alt="">
-                        </a>
+                        <a href="../contact_us" data-i18n="nav.contact"></a>
                         <ul class="dropdown-menu">
                         	<li><a href="/contact_us#directions" class=""><span data-i18n="nav.subnav.directions"></span><!--DIRECTIONS--></a></li>
                             <li><a href="/contact_us#how_to_get_here" class="" ><span data-i18n="nav.subnav.how_to_get_here"></span><!--HOW TO GET HERE--></a></li>
@@ -352,18 +343,7 @@
                         <a href="../about_us" data-i18n="nav.about"></a>
                     </li>
                     <li class="page-scroll" style="">
-                        <a href="../contact_us"> 
-                            <span data-i18n="nav.contact"></span>
-                            <img src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/76bb02080494d5c249e583bcc5002b63/icon_whitearrow_down.png" class="dropdown-arrow" alt="">
-                        </a>
-                        <ul class="dropdown-mobile">
-                        	<li><a href="/contact_us#directions" class=""><span data-i18n="nav.subnav.directions"></span><!--DIRECTIONS--></a></li>
-                            <li><a href="/contact_us#how_to_get_here" class="" ><span data-i18n="nav.subnav.how_to_get_here"></span><!--HOW TO GET HERE--></a></li>
-                            <li><a href="/contact_us#parking_information" class=""><span data-i18n="nav.subnav.parking_information"></span><!--PARKINING INFORMATION--></a></li>
-                            <li><a href="/contact_us#opening_hours" class="" ><span data-i18n="nav.subnav.opening_hours"></span><!--OPENING HOURS--></a></li>
-                            <li><a href="/contact_us#administration_hours" class=""><span data-i18n="nav.subnav.administration_hours"></span><!--ADMINISTRATION HOURS--></a></li>
-                            <li><a href="/contact_us#accessibility" class=""><span data-i18n="nav.subnav.accessibility"></span><!--ACCESSIBILITY--></a></li>
-                        </ul>
+                        <a href="../contact_us" data-i18n="nav.contact"></a>
                     </li>
                     <li class="page-scroll primary-locale" style="">
                         <a id="fr-CA-mobile" href="#" data-i18n="nav.locale.french"></a>
