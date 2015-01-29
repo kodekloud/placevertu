@@ -259,17 +259,30 @@
                                 <a href="/customer_services#wifi" data-i18n="nav.subnav.wifi"></a>
                             </li>
                         </ul>
-                        
-                        
                     </li>
                     <li class="page-scroll" style="">
                         <a href="../jobs" data-i18n="nav.jobs"></a>
                     </li>
                     <li class="page-scroll" style="">
                         <a href="../about_us" data-i18n="nav.about"></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about_us#place_vertu"  ><span data-i18n="nav.subnav.place_vertu"></span></a></li>
+                            <li><a href="/about_us#leasing_information" ><span data-i18n="nav.subnav.leasing_information"></span><!--LEASING INFORMATION--></a></li>
+                            <li><a href="/about_us#charities" ><span data-i18n="nav.subnav.charities"></span><!--CHARITIES & NON-PROFIT --></a></li>
+                            <li><a href="/about_us#green_initiatives" ><span data-i18n="nav.subnav.green_initiatives"></span></a></li>
+                            <li><a href="/about_us#contract_policy"><span data-i18n="nav.subnav.contract_policy"></span></a></li>
+                        </ul>
                     </li>
                     <li class="page-scroll" style="">
                         <a href="../contact_us" data-i18n="nav.contact"></a>
+                        <ul class="dropdown-menu">
+                        	<li><a href="/contact_us#directions" class=""><span data-i18n="nav.subnav.directions"></span><!--DIRECTIONS--></a></li>
+                            <li><a href="/contact_us#how_to_get_here" class="" ><span data-i18n="nav.subnav.how_to_get_here"></span><!--HOW TO GET HERE--></a></li>
+                            <li><a href="/contact_us#parking_information" class=""><span data-i18n="nav.subnav.parking_information"></span><!--PARKINING INFORMATION--></a></li>
+                            <li><a href="/contact_us#opening_hours" class="" ><span data-i18n="nav.subnav.opening_hours"></span><!--OPENING HOURS--></a></li>
+                            <li><a href="/contact_us#administration_hours" class=""><span data-i18n="nav.subnav.administration_hours"></span><!--ADMINISTRATION HOURS--></a></li>
+                            <li><a href="/contact_us#accessibility" class=""><span data-i18n="nav.subnav.accessibility"></span><!--ACCESSIBILITY--></a></li>
+                        </ul>
                     </li>
                 </ul>
             </div>
