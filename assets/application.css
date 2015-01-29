@@ -617,7 +617,7 @@ footer .nav>li>a{
 }
 
 .promotions-flag{
-    
+    display: inline-block !important;
     margin-left:10px;
     background-image: url("http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/76bb02080494d5c249e583bcc5002b63/promo.png");
     width: 20px;
