@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row">
-    <div class="col-xs-12 col-sm-4 col-sm-pull-8 col-md-3 col-md-pull-9"  id="sidebar">
+    <div class="col-xs-12 col-sm-4 col-md-3"  id="sidebar">
             <h1 class="hidden-xs">Contact Us</h1>
             <img src="http://d33wyx0pza9yj4.cloudfront.net/sites/5431987c6e6f64102a020000/4d412bf5c9fdf38eed9830f9db5fa28a/img_contactus.jpg" class="hidden-xs" alt="">
             <ul class="button-panel">
@@ -12,7 +12,7 @@
                 <li><a href="#opening_hours" class="btn btn-default" ><span data-i18n="nav.subnav.opening_hours"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png"><!--OPENING HOURS--></a></li>
             </ul>
         </div>
-        <div class="col-xs-12 col-sm-8 col-sm-push-4 col-md-9 col-md-push-3"  id="right-content">
+        <div class="col-xs-12 col-sm-4 col-md-9"  id="right-content">
             <h1 class="visible-xs" data-i18n="nav.contact"><!--CONTACT--></h1>
             
             <!--DIRECTIONS-->
