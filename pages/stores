@@ -19,7 +19,7 @@
                             </a>
                         </h4>
                     </div>
-                    <div id="collapseOne" class="panel-collapse collapse in alpha_table">
+                    <div id="collapseOne" class="panel-collapse collapse in alpha-table">
                         <div class="panel-body store-letters">
                             <a href="#A">A</a>
                             <a href="#B">B</a>
