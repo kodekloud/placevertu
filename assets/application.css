@@ -993,17 +993,17 @@ footer .nav>li>a{
 }
 .cal1 .clndr .clndr-controls .month {
   float: left;
-  width: 33%;
+  width: 60%;
   text-align: center;
   font-size:18px;
 }
 .cal1 .clndr .clndr-controls .clndr-control-button {
   float: left;
-  width: 33%;
+  width: 20%;
 }
 .cal1 .clndr .clndr-controls .clndr-control-button.rightalign {
   
-  width: 34%;
+  width: 20%;
 }
 .cal1 .clndr .clndr-controls .clndr-control-button .clndr-next-button {
   cursor: pointer;
