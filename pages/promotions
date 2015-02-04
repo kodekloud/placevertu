@@ -114,7 +114,7 @@
             $('#loading').hide();
             $('#page_content').fadeIn('fast');
             
-                $(".facebook-share img").hover(
+            $(".facebook-share img").hover(
                 function () {
                     $(this).attr("src","http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/49e992eb70ac82a631edbaaac81e520b/social_fb_selected.png");
                 },
