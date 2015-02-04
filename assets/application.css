@@ -227,9 +227,14 @@ img{
 
 .social-links .facebook-share{
     display: inline-block;
-    width: 30px;
-    height: 30px;
+    width: 100%;
+    height: 100%;
     background: url("http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/b0569e51e18927ad105550396bfc8f3f/share_fb.png");
+}
+
+.social-links span{
+    width: 38px;
+    height:38px;
 }
 
 .social-link{
