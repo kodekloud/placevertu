@@ -222,10 +222,11 @@ img{
 }
 
 .social-link img{
-    
     height:30px;
-    
-    
+}
+
+.social-links .facebook-share{
+    background: url("http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/b0569e51e18927ad105550396bfc8f3f/share_fb.png");
 }
 
 .social-link{
