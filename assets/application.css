@@ -515,7 +515,9 @@ footer .nav>li>a{
     height: 275px;
 }
 
-
+#hours_empty_section_id{
+    height:150px;
+}
 
 .feature-item .btn{
     width:200px;
