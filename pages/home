@@ -38,7 +38,7 @@
                    <script id="todays_hours_template" type="x-tmpl-mustache">
                         <h5 data-i18n="days_of_week.{{day_of_week}}"></h5>
                         <div>{{holiday_name}}</div>
-                        <span style="{{is_open_css}};">
+                        <span style="{{is_open_css}}; font-size:15px;">
                             {{open_time_localized}} - {{close_time_localized}}
                         </span>
                         <span style="{{is_closed_css}};">
