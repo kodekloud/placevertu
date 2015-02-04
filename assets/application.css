@@ -225,15 +225,6 @@ img{
     height:30px;
 }
 
-.social-links .facebook-share img:hover{
-    z-index:1000;
-    height: 30px;
-    width: auto;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    background: url("http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/49e992eb70ac82a631edbaaac81e520b/social_fb_selected.png") no-repeat;
-}
-
 .social-link{
     margin-top:20px;
 }
