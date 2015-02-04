@@ -464,6 +464,10 @@ img{
     text-transform: uppercase;
 }
 
+.bottom-nav .page-scroll > a{
+    color:red;
+}
+
 .navbar-default .navbar-nav>li>a:hover{
     color:#D0D0D0;
     text-transform: uppercase;
