@@ -225,7 +225,7 @@ img{
     height:30px;
 }
 
-.social-links .facebook-share:hover{
+.social-links .facebook-share img:hover{
     background: url("http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/49e992eb70ac82a631edbaaac81e520b/social_fb_selected.png") no-repeat;
 }
 
