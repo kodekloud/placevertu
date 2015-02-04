@@ -97,7 +97,7 @@
                 <a class="list-group-item" href="../stores/{{slug}}">
                     <span class="store-name">{{name}}</span>
                     <span class="promotions-flag" style="display:{{has_promotions_css}}">
-                        <img style="width:20px; height:20px; margin-bottom:5px;" src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/49e992eb70ac82a631edbaaac81e520b/icon_promo.png" class="" alt="">
+                        <img style="width:23px; height:20px; margin-bottom:5px;" src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/49e992eb70ac82a631edbaaac81e520b/icon_promo.png" class="" alt="">
                     </span>
                     <span class="jobs-flag" style="display:{{has_jobs_css}}">
                         <img style="width:20px; height:20px; margin-bottom:5px;" src="http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/49e992eb70ac82a631edbaaac81e520b/icon_job.png" class="" alt="">
