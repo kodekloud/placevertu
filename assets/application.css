@@ -259,6 +259,8 @@ img{
     float:left;
 }
 
+
+
 .search-results{
     position:absolute;
     z-index:30;
@@ -511,6 +513,10 @@ footer .nav>li>a{
     padding-bottom:30px;
     text-align:center;
     height:293px;
+}
+
+.feature-item .checkbox{
+    margin-bottom: 0px;
 }
 
 .feature-item .btn{
