@@ -515,7 +515,7 @@ footer .nav>li>a{
     height: 275px;
 }
 
-#hours_empty_section_id{
+#hours_empty_section_id, #hours_not_empty_section_id{
     height:60px;
 }
 
