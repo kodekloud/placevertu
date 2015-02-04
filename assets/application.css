@@ -465,7 +465,7 @@ img{
 }
 
 .bottom-nav .page-scroll > a{
-    color:red;
+    font-weight: bold;
 }
 
 .navbar-default .navbar-nav>li>a:hover{
