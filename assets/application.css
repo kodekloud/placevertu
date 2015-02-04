@@ -513,8 +513,8 @@ footer .nav>li>a{
     height:293px;
 }
 
-.feature-item .click-more{
-    
+.feature-item .btn{
+    width:200px;
 }
 
 .feature-item a{
