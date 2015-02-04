@@ -80,6 +80,22 @@
             $('#loading').hide();
             $('#page_content').fadeIn('fast');
             
+            $(".facebook-share img").hover(
+                function () {
+                    $(this).attr("src","http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/49e992eb70ac82a631edbaaac81e520b/social_fb_selected.png");
+                },
+                function () {
+                    $(this).attr("src","http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/b0569e51e18927ad105550396bfc8f3f/share_fb.png");
+            });
+            $(".twitter-share img").hover(
+                function () {
+                    $(this).attr("src","http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/49e992eb70ac82a631edbaaac81e520b/share_twit_selected.png");
+                },
+                function () {
+                    $(this).attr("src","http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/b0569e51e18927ad105550396bfc8f3f/share_twit.png");
+            });
+            
+            
              $.ajax({
                 url : "/web_pages/update_dynamic_page_meta_data",
                 type: "POST",
