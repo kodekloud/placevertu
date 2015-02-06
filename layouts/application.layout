@@ -615,7 +615,7 @@
                 $('#search_input_mobile').val('')
             });
             
-    
+            console.log(current_local);
             stickySidebar();
         
         });
