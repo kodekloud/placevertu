@@ -614,8 +614,6 @@
                 $(document).i18n();
                 $('#search_input_mobile').val('')
             });
-            
-            console.log(sessionStorage.current_locale);
             stickySidebar();
         
         });
