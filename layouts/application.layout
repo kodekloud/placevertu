@@ -514,6 +514,7 @@
                 sessionStorage.setItem('current_locale', sessionStorage.primary_locale);
                 $("#search_input").attr("placeholder", i18n.t("general.search_placeholder"));
                 $("#search_input_mobile").attr("placeholder", i18n.t("general.search_placeholder"));
+                stickySidebar();
             }
             
             function setSecondaryLanguage(){
@@ -525,6 +526,7 @@
                 sessionStorage.setItem('current_locale', sessionStorage.secondary_locale);
                 $("#search_input").attr("placeholder", i18n.t("general.search_placeholder"));
                 $("#search_input_mobile").attr("placeholder", i18n.t("general.search_placeholder"));
+                stickySidebar();
             }
             
             $('#en-CA').click(function(){
@@ -614,7 +616,6 @@
                 $(document).i18n();
                 $('#search_input_mobile').val('')
             });
-            stickySidebar();
         
         });
         
