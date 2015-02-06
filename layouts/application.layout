@@ -279,9 +279,9 @@
                         	<li><a href="/contact_us#directions" class=""><span data-i18n="nav.subnav.directions"></span><!--DIRECTIONS--></a></li>
                             <li><a href="/contact_us#how_to_get_here" class="" ><span data-i18n="nav.subnav.how_to_get_here"></span><!--HOW TO GET HERE--></a></li>
                             <li><a href="/contact_us#parking_information" class=""><span data-i18n="nav.subnav.parking_information"></span><!--PARKINING INFORMATION--></a></li>
-                            <li><a href="/contact_us#opening_hours" class="" ><span data-i18n="nav.subnav.opening_hours"></span><!--OPENING HOURS--></a></li>
-                            <li><a href="/contact_us#accessibility" class=""><span data-i18n="nav.subnav.accessibility"></span><!--ACCESSIBILITY--></a></li>
                             <li><a href="/contact_us#administration_hours" class=""><span data-i18n="nav.subnav.administration_hours"></span><!--ADMINISTRATION HOURS--></a></li>
+                            <li><a href="/contact_us#accessibility" class=""><span data-i18n="nav.subnav.accessibility"></span><!--ACCESSIBILITY--></a></li>
+                            <li><a href="/contact_us#opening_hours" class="" ><span data-i18n="nav.subnav.opening_hours"></span><!--OPENING HOURS--></a></li>
                          </ul>
                     </li>
                 </ul>
