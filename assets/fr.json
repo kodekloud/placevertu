@@ -38,13 +38,13 @@
     }
   },
   "days_of_week":{
-      "0": "Sunday_fr",
-      "1": "Monday_fr",
-      "2": "Tuesday_fr",
-      "3": "Wednesday_fr",
-      "4": "Thursday_fr",
-      "5": "Friday_fr",
-      "6": "Sunday_fr"
+      "0": "Dimanche",
+      "1": "Lundi",
+      "2": "Mardi",
+      "3": "Mercredi",
+      "4": "Jeudi",
+      "5": "Vendredi",
+      "6": "Samedi"
   },
   "general":{
       "todays_hours":"Heures d'ouverture",
