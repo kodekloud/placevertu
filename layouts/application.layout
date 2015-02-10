@@ -321,7 +321,7 @@
                         
                     </li>
                     <li class="page-scroll" style="">
-                        <a href="/contact_us#open_hours" class="" ><span data-i18n="nav.subnav.opening_hours"></span><!--OPENING HOURS--></a>
+                        <a href="/contact_us?open_hours=true" class="" ><span data-i18n="nav.subnav.opening_hours"></span><!--OPENING HOURS--></a>
                         
                     </li>
                     <li class="page-scroll" style="">
