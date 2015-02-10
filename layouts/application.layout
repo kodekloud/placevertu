@@ -556,7 +556,12 @@
             
                 var centre_signature = new Date().getFullYear()+ " " + getPropertyDetails().name;
                 $('#center_signature').html(centre_signature);
-                
+                   if(getUrlParameter('open_hours') == 'yes'){
+                   console.log('yes');
+                    $(function() {
+                        $(document).scrollTop( $("#open_hours").offset().top );  
+                    });
+                }
                 
             }
             //loadMallData is located in mallmaverick.js, the call back method ensures the data is loaded
@@ -648,12 +653,7 @@
                 });
             }
         }
-   if(getUrlParameter('open_hours') == 'yes'){
-       console.log('yes');
-        $(function() {
-            $(document).scrollTop( $("#open_hours").offset().top );  
-        });
-    }
+
     function getUrlParameter(sParam)
     {
         var sPageURL = window.location.search.substring(1);
