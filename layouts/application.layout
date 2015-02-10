@@ -556,8 +556,7 @@
             
                 var centre_signature = new Date().getFullYear()+ " " + getPropertyDetails().name;
                 $('#center_signature').html(centre_signature);
-                   if(getUrlParameter('open_hours') == 'yes'){
-                   console.log('yes');
+                   if(getUrlParameter('open_hours') == 'true'){
                     $(function() {
                         $(document).scrollTop( $("#open_hours").offset().top );  
                     });
