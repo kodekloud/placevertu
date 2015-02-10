@@ -432,6 +432,7 @@
             
             <!--ACCESSIBILITY-->
             <a class="anchor" name="accessibility"></a>
+            <a class="anchor" name="open_hours"></a>
             <h2 data-i18n="nav.subnav.accessibility"><!--ACCESSIBILITY--></h2>
             <div class="primary-locale">
                 <!-- Accessibility (English) CONTENT BLOCK START-->    
@@ -566,7 +567,7 @@
                 <!-- Accessibility (French) CONTENT BLOCK END -->
                 
             </div>
-            <a class="anchor" name="open_hours"></a>
+            
                 <!--CENTRE HOURS-->
             
             <%=/centre_hours%>
