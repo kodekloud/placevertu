@@ -564,10 +564,11 @@
                   </script>
                 </section>    
                 <!-- Accessibility (French) CONTENT BLOCK END -->
+                <a class="anchor" name="open_hours"></a>
             </div>
             
                 <!--CENTRE HOURS-->
-            <a class="anchor" name="open_hours"></a>
+            
             <%=/centre_hours%>
             <div class="primary-locale">
                 <!-- Store Hours (English) CONTENT BLOCK START-->    
