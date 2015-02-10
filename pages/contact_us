@@ -567,7 +567,7 @@
             </div>
             
                 <!--CENTRE HOURS-->
-            <a class="anchor" name="opening_hours"></a>
+            <a class="anchor" name="open_hours"></a>
             <%=/centre_hours%>
             <div class="primary-locale">
                 <!-- Store Hours (English) CONTENT BLOCK START-->    
