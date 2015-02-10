@@ -971,10 +971,16 @@ footer .nav>li>a{
 }
 
 @media(min-width:1200px){
-    .navbar-nav > li{
+    .primary-locale .navbar-nav > li{
         padding-left:30px;
         padding-right:30px;
     }
+    
+    .secondary-locale .navbar-nav > li{
+        padding-left: 18px;
+        padding-right: 18px;
+    }
+    
     .home .banner{
         width:100%;
         padding-left:150px;
