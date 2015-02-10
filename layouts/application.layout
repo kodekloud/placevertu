@@ -557,6 +557,7 @@
                 var centre_signature = new Date().getFullYear()+ " " + getPropertyDetails().name;
                 $('#center_signature').html(centre_signature);
                    if(getUrlParameter('open_hours') == 'true'){
+                       console.log('in ture')
                     $(function() {
                         $(document).scrollTop( $("#open_hours").offset().top );  
                     });
