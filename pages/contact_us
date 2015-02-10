@@ -564,9 +564,9 @@
                   </script>
                 </section>    
                 <!-- Accessibility (French) CONTENT BLOCK END -->
-                <a class="anchor" name="open_hours"></a>
+                
             </div>
-            
+            <a class="anchor" name="open_hours"></a>
                 <!--CENTRE HOURS-->
             
             <%=/centre_hours%>
