@@ -714,6 +714,7 @@
         $('#loading').hide();
         $('#page_content').fadeIn('fast');
         if(getUrlParameter('open_hours') == 'yes'){
+            console.log('yes');
             $(function() {
                 $(document).scrollTop( $("#open_hours").offset().top );  
             });
