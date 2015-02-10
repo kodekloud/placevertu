@@ -35,7 +35,9 @@
    fill:   #66FFFF;
 }
   
-
+.sticky-wrapper{
+    height: auto !important;
+}
 
 #pop-over{
     position:absolute;
