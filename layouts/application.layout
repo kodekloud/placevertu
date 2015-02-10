@@ -619,7 +619,7 @@
     </div>
     <div class="bottom-nav">
         <div class="container">
-            <div class="primary-locale">
+          
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="">
                 <ul class="nav navbar-nav" style="">
                     <li class="hidden">
@@ -679,7 +679,7 @@
                         </ul>
                     </li>
                 </ul>
-            </div></div>
+            </div>
             
             
         </div>
