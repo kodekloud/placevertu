@@ -649,6 +649,7 @@
             }
         }
    if(getUrlParameter('open_hours') == 'yes'){
+       console.log('yes');
         $(function() {
             $(document).scrollTop( $("#open_hours").offset().top );  
         });
