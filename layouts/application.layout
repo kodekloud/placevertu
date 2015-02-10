@@ -126,7 +126,8 @@
 <body id="page-top" class="index" >
     <!-- Navigation -->
     <div id="body_content">
-    <nav class="navbar navbar-default header-area">
+        <div class="primary-locale">
+            <nav class="navbar navbar-default header-area">
         <div class="visible-xs" style="position:absolute;left:5px;top:5px">
                 <a href="../home"><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/logo_PV.jpg" alt="site logo"></a>
         </div>
@@ -364,6 +365,247 @@
         
         <!-- /.container-fluid -->
     </nav>
+        </div>
+        <div class="secondary-locale">
+            <nav class="navbar navbar-default header-area">
+        <div class="visible-xs" style="position:absolute;left:5px;top:5px">
+                <a href="../home"><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/logo_PV.jpg" alt="site logo"></a>
+        </div>
+        <div class="container " style="">
+            
+            <div class="hidden-xs">
+                <div class="" style="margin-top:25px;">
+                    <a href=".."><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/logo_PV.jpg" alt="site logo"></a>
+                    <div class="pull-right site-controls" style="">
+                        <div class="language" style="">
+                            <p class="text">
+                                <a id="en-CA" href="#" data-i18n="nav.locale.english"></a>
+                                <span class="signature-item">|</span>
+                                <a id="fr-CA" href="#" data-i18n="nav.locale.french"></a>
+                            </p>
+                        </div>
+                        <div class="social-link" style="">
+                            <a href="https://www.facebook.com/placevertu" target="_blank"><img class="image" src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/social_fb.png" ></a>
+                        </div>
+                        <div class="search" style="" >
+                            <p class="title" style="" data-i18n="general.search">&nbsp;</p>
+                            <input type="text" id="search_input" placeholder="">
+                            <div class="search-results" id="search_results" style="display:none">
+                                <!-- START MUSTACHE TEMPLATE FOR EVENT ITEM WITH AN IMAGE-->
+                                <script id="search_results_template" type="x-tmpl-mustache">{% raw %}
+                                    <h4 class="list-group-item header" style="{{stores_header_style}}" data-i18n="nav.stores"></h4>
+                                    {{#stores}}
+                                        <a href="/stores/{{slug}}" class="list-group-item">
+                                            <div class="name">{{name}}</div>
+                                            <div class="description">{{description_trim}}</div>
+                                            <div class="phone">{{phone}}</div>
+                                        </a>
+                                    {{/stores}}
+                                    <h4 class="list-group-item header" style="{{promotions_header_style}}" data-i18n="nav.promotions"></h4>
+                                    {{#promotions}}
+                                        <a href="/promotions/{{slug}}" class="list-group-item">
+                                            <div class="name">{{name}}</div>
+                                            <div class="description">{{description_trim}}</div>
+                                        </a>
+                                    {{/promotions}}
+                                    <h4 class="list-group-item header" style="{{events_header_style}}" data-i18n="nav.events"></h4>
+                                    {{#events}}
+                                        <a href="/events/{{slug}}" class="list-group-item">
+                                            <div class="name">{{name}}</div>
+                                            <div class="description">{{description_trim}}</div>
+                                        </a>
+                                    {{/events}}
+                                    <h4 class="list-group-item header" style="{{jobs_header_style}}" data-i18n="nav.jobs"></h4>
+                                    {{#jobs}}
+                                        <a href="/jobs#{{id}}" class="list-group-item">
+                                            <div class="name">{{name}}</div>
+                                            <div class="description">{{description_trim}}</div>
+                                        </a>
+                                    {{/jobs}}
+                                </script>{% endraw %}
+
+                              <ul class="list-group" >
+                                <a href="#" class="close-search list-group-item" style="">
+                                    
+                                </a>
+                                
+                                <div id="search_results_items" class="search-results-items" style="">
+                                    <!--RENDERED BY renderSearchResultsTemplate(..) -->
+                                </div>
+                                
+                                <a href="#" class="close-search list-group-item" style="">
+                                    <small>
+                                        <span class="search-results-count">{{count}}</span>&nbsp;<span data-i18n="general.results"></span> 
+                                    </small>
+                                </a>
+                                <a href="#" class="close-search list-group-item" style="">
+                                    <small>
+                                        <span>Today's Hours </span>
+                                    </small>
+                                    <small class="pull-right" id="todays-hours-search">
+                                        
+                                    </small>
+                                    <script id="todays_hours_search_template" type="x-tmpl-mustache">{% raw %}
+                                        <span style="{{is_open_css}};">
+                                            {{open_time_localized}} - {{close_time_localized}}
+                                        </span>
+                                        <span style="{{is_closed_css}};">
+                                            Closed
+                                        </span>
+                                    </script>{% endraw %}
+                                </a>
+                              </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container nav-items hidden-xs desktop-nav" id="nav_items_sticky">
+            
+        
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll" style="">
+                        <a href="../stores" data-i18n="nav.stores" style="min-height:50px"></a>
+                    </li>
+                    <li class="page-scroll" style="">
+                        <a href="../promotions" data-i18n="nav.promotions"></a>
+                    </li>
+                    <li class="page-scroll" style="">
+                        <a href="../events" data-i18n="nav.events"></a>
+                    </li>
+                    <li class="page-scroll dropdown" style="">
+                        <a class="" href="../customer_services" data-i18n="nav.services"></a>
+                        <ul class="dropdown-menu">
+                        	<li>
+                                <a href="/customer_services#gift_cards" data-i18n="nav.subnav.gift_cards"></a>
+                            </li>
+                            <li>
+                                <a href="/customer_services#customer_services" data-i18n="nav.subnav.customer_services"></a>
+                            </li>
+                            <li>
+                                <a href="/customer_services#fitness_walking_club" data-i18n="nav.subnav.fitness_walking_club"></a>
+                            </li>
+                            <li>
+                                <a href="/customer_services#welcome_to_families" data-i18n="nav.subnav.welcome_to_families"></a>
+                            </li>
+                            <li>
+                                <a href="/customer_services#wifi" data-i18n="nav.subnav.wifi"></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="page-scroll" style="">
+                        <a href="../jobs" data-i18n="nav.jobs"></a>
+                    </li>
+                    <li class="page-scroll dropdown" style="">
+                        <a href="../about_us" data-i18n="nav.about"></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="/about_us#place_vertu"  ><span data-i18n="nav.subnav.place_vertu"></span></a></li>
+                            <li><a href="/about_us#leasing_information" ><span data-i18n="nav.subnav.leasing_information"></span><!--LEASING INFORMATION--></a></li>
+                            <li><a href="/about_us#charities" ><span data-i18n="nav.subnav.charities"></span><!--CHARITIES & NON-PROFIT --></a></li>
+                            <li><a href="/about_us#green_initiatives" ><span data-i18n="nav.subnav.green_initiatives"></span></a></li>
+                            <li><a href="/about_us#contract_policy"><span data-i18n="nav.subnav.contract_policy"></span></a></li>
+                        </ul>
+                    </li>
+                    <li class="page-scroll dropdown" style="">
+                        <a href="../contact_us" data-i18n="nav.contact"></a>
+                        <ul class="dropdown-menu">
+                        	<li><a href="/contact_us#directions" class=""><span data-i18n="nav.subnav.directions"></span><!--DIRECTIONS--></a></li>
+                            <li><a href="/contact_us#how_to_get_here" class="" ><span data-i18n="nav.subnav.how_to_get_here"></span><!--HOW TO GET HERE--></a></li>
+                            <li><a href="/contact_us#parking_information" class=""><span data-i18n="nav.subnav.parking_information"></span><!--PARKINING INFORMATION--></a></li>
+                            <li><a href="/contact_us#administration_hours" class=""><span data-i18n="nav.subnav.administration_hours"></span><!--ADMINISTRATION HOURS--></a></li>
+                            <li><a href="/contact_us#accessibility" class=""><span data-i18n="nav.subnav.accessibility"></span><!--ACCESSIBILITY--></a></li>
+                            <li><a href="/contact_us#open_hours" class="" ><span data-i18n="nav.subnav.opening_hours"></span><!--OPENING HOURS--></a></li>
+                         </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+            
+            
+            <!-- /.navbar-collapse -->
+        </div>
+        <div class="container nav-items visible-xs mobile-nav">
+            
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="background-color:#000">
+                <ul class="nav navbar-nav" style="width:100%">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll mobile-search-nav-item" style="border:none">
+                        <span class="mobile-search" ><span data-i18n="general.search"></span><input type="text" id="search_input_mobile" placeholder=" by keyword" class="" style="margin-left:30px"></span>
+                    </li>
+                    <li id="search_results_mobile" class="search-results-mobile" style="border:none">
+                        
+                        <div id="search_results_items_mobile" class="search-results-items" style="background-color:#000">
+                            <!--RENDERED BY renderSearchResultsTemplate(..) -->
+                        </div>
+                        
+                    </li>
+                    <li class="page-scroll" style="">
+                        <a href="/contact_us?open_hours=true" class="" ><span data-i18n="nav.subnav.opening_hours"></span><!--OPENING HOURS--></a>
+                        
+                    </li>
+                    <li class="page-scroll" style="">
+                        <a href="../stores" data-i18n="nav.stores"></a>
+                    </li>
+                    <li class="page-scroll" style="">
+                        <a href="../promotions" data-i18n="nav.promotions"></a>
+                    </li>
+                    <li class="page-scroll" style="">
+                        <a href="../events" data-i18n="nav.events"></a>
+                    </li>
+                    <li class="page-scroll" style="">
+                        <a href="../customer_services" data-i18n="nav.services"></a>
+                    </li>
+                    <li class="page-scroll" style="">
+                        <a href="../jobs" data-i18n="nav.jobs"></a>
+                    </li>
+                    <li class="page-scroll" style="">
+                        <a href="../about_us" data-i18n="nav.about"></a>
+                    </li>
+                    <li class="page-scroll" style="">
+                        <a href="../contact_us" data-i18n="nav.contact"></a>
+                    </li>
+                    <li class="page-scroll primary-locale" style="">
+                        <a id="fr-CA-mobile" href="#" data-i18n="nav.locale.french"></a>
+                    </li>
+                    <li class="page-scroll secondary-locale" style="">
+                        <a id="en-CA-mobile" href="#" data-i18n="nav.locale.english"></a>
+                    </li>
+                    <li class="page-scroll" style="">
+                        <a href="https://www.facebook.com/placevertu" target="_blank"><img class="image" style="width:40px" src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/social_fb.png" ></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+            
+            
+            <!-- /.navbar-collapse -->
+        </div>
+        
+        <!-- /.container-fluid -->
+    </nav>
+        </div>
     <div class="page_content">
       <center id="loading">
       <div>
