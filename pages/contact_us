@@ -713,7 +713,6 @@
     $(document).ready(function() {
         $('#loading').hide();
         $('#page_content').fadeIn('fast');
-        console.log(getUrlParameter('open_hours'));
         if(getUrlParameter('open_hours') == 'yes'){
             $(function() {
                 $(document).scrollTop( $("#open_hours").offset().top );  
