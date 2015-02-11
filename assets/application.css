@@ -935,7 +935,8 @@ footer .nav>li>a{
     }
     
     .secondary-locale .navbar-nav > li{
-        padding: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     
     .hidden-phone{
