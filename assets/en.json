@@ -77,6 +77,7 @@
       "search_placeholder":"by keyword",
       "enter_email":"enter email",
       "submit":"Submit",
-      "agree_newsletter":"I agree to receive emails from Place Vertu"
+      "agree_newsletter":"I agree to receive emails from Place Vertu",
+      "visit_website": "Visit Website"
   }
 }
