@@ -85,7 +85,8 @@
                             <input id="fieldEmail" name="cm-tydkit-tydkit" type="email" required placeholder="enter email" /> 
                        <div class="checkbox">
                         <span style="font-size:12px">
-                          <input type="checkbox" class="info_check" id="agree_terms" style="width:15px"/>&nbsp;I agree to receive emails from Place Vertu
+                          <input type="checkbox" class="info_check" id="agree_terms" style="width:15px"/>
+                          <span data-i18n="general.newsletter_agree"></span>
                         </span>
                       </div>
                         <button class="btn btn-default"  data-i18n="general.submit"></button>
