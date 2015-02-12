@@ -75,6 +75,7 @@
       "loading_events":"Téléchargement d'événements…",
       "search_placeholder":"par mot-clé",
       "enter_email":"inscrire courriel",
-      "submit":"Soumettre"
+      "submit":"Soumettre",
+      "agree_newsletter":"Je consens à recevoir des courriels de Place Vertu."
   }
 }
