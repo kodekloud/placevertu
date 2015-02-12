@@ -86,7 +86,7 @@
                        <div class="checkbox">
                         <span style="font-size:12px">
                           <input type="checkbox" class="info_check" id="agree_terms" style="width:15px"/>
-                          <span data-i18n="general.newsletter_agree"></span>
+                          <span data-i18n="general.agree_newsletter"></span>
                         </span>
                       </div>
                         <button class="btn btn-default"  data-i18n="general.submit"></button>
