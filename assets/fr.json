@@ -78,6 +78,7 @@
       "enter_email":"inscrire courriel",
       "submit":"Soumettre",
       "agree_newsletter":"Je consens à recevoir des courriels de Place Vertu.",
-      "visit_website" : " Visitez le Site"
+      "visit_website" : " Visitez le Site",
+      "search" :"Recherche"
   }
 }
