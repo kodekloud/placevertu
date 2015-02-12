@@ -47,6 +47,7 @@
       "6": "Saturday"
   },
   "general":{
+      "hours":"Hours",
       "todays_hours":"Today's Hours",
       "closed":"Closed",
       "regular_hours":"Regular Hours",
