@@ -136,7 +136,10 @@
                 renderStoresByCategoriesListTemplate('#store_header_template','#store_item_template','#store_list','#store_list','#no_stores_list',getStoresList());
             });
             renderSVGMap();
-            $(document).i18n();
+            if(typeof($(document)) != 'undefined'){
+                $(document).i18n();
+            }
+            //$(document).i18n();
             
         }
         
