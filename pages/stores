@@ -143,7 +143,7 @@
             
         }
         
-        loadMallData(renderPageData);
+        loadMallDataCached(renderPageData);
         
         function goToStore(store_details){
             if(typeof(store_details) != 'undefined' && store_details != null){
