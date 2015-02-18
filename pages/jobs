@@ -62,7 +62,7 @@
             $('#page_content').fadeIn('fast');
         }
         
-        loadMallData(renderPageData);
+        loadMallDataCached(renderPageData);
     });
 
     
