@@ -118,7 +118,7 @@
             $('#loading').hide();
             $('#page_content').fadeIn('fast');
         }
-        loadMallData(renderPageData);
+        loadMallDataCached(renderPageData);
         
         
         $('#subForm').submit(function (e) {
