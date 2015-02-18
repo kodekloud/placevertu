@@ -130,7 +130,7 @@
             });
         }
         
-        loadMallData(renderPageData);
+        loadMallDataCached(renderPageData);
     });
     
 </script>
