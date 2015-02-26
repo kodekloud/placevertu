@@ -317,6 +317,11 @@ img{
     padding-bottom:5px;
 }
 
+.feature-items-section {
+    background-color: rgb(222, 222, 222);
+    margin-top: none;
+}
+
 .search-results .list-group-item{
     border:none;
     color:#FFF;
