@@ -774,8 +774,9 @@ footer .nav>li>a{
 }
 
 .promo-details .dates{
-    font-size: 15px;
-    color:#000;
+    font-size: 1em;
+    color:#5d5d5d;
+    
 }
 
 .promo-details .description{
