@@ -677,10 +677,14 @@ footer .nav>li>a{
 .panel-collapse {
     border:none;
 }
-.checkbox input[type=checkbox]{
-    margin-left: -16px !important;
+
+.newsletter-sign-up .checkbox{
     margin-top:5px !important;
     margin-bottom:20px !important;
+}
+
+.checkbox input[type=checkbox]{
+    margin-left: -16px !important;
 }
 .panel .panel-heading{
     border-radius:0px;
