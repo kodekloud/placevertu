@@ -441,7 +441,7 @@
       </center>
       <div id="page_content" style="display:none">{{yield}}</div>
     </div>
-    <div class="bottom-nav">
+    <div class="bottom-nav hidden-phone">
         <div class="container">
             <div class="primary-locale">
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="">
