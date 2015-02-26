@@ -946,10 +946,7 @@ footer .nav>li>a{
 
 @media(min-width:768px){
      
-    .visible-phone{
-        display: none !important;
-    }
-    
+
     .secondary-locale .nav>li>a{
         padding: 15px 0px;
     }
@@ -959,9 +956,7 @@ footer .nav>li>a{
         padding-right: 8px;
     }
     
-    .hidden-phone{
-        display: inline !important;
-    }
+
     .navbar-nav > li{
         padding-left:2px;
         padding-right:2px;
