@@ -536,7 +536,7 @@ footer .nav>li>a{
 }
 
 #hours_empty_section_id, #hours_not_empty_section_id{
-    height:45px;
+    height:40px;
 }
 .sub-bottom a {
     text-transform: none;   
