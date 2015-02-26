@@ -773,11 +773,11 @@
             } else {
               jQuery(window).scroll(function(){ 
                     var navHeight = $('nav').height();
-                    var windowTop = $(window).scrollTop() - navHeight + 40; 
+                    var windowTop = $(window).scrollTop() - navHeight + 60; 
                     var sidebarHeight = $('#sidebar').height();
                     var contentHeight = $('#right-content').height();
                     if(sidebarHeight + windowTop < contentHeight){
-                        if ($(window).scrollTop() >140) {
+                        if ($(window).scrollTop() >100) {
                             jQuery('#sidebar').css('top',windowTop); 
                         }else{
                             jQuery('#sidebar').css('top',0);
