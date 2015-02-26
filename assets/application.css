@@ -534,7 +534,11 @@ footer .nav>li>a{
     text-align:center;
     height: 275px;
 }
-
+.bottom-nav {
+    -moz-box-shadow: inset 0 10px 10px -10px #777777;
+    -webkit-box-shadow: inset 0 10px 10px -10px #777777;
+    box-shadow: inset 0 10px 10px -10px #777777;
+}
 #hours_empty_section_id, #hours_not_empty_section_id{
     height:40px;
 }
