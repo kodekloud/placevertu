@@ -258,6 +258,7 @@ img{
 .search .title{
     float:right;
     margin-bottom:0px;
+    font-size: 12px;
 }
 
 .search input{
