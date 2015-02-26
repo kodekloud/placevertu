@@ -859,10 +859,6 @@ footer .nav>li>a{
 }
 
 @media(max-width:767px){
-    .bottom-nav{
-        background-color:#FFF;
-        padding-bottom:0px;
-    }
 
     .visible-phone{
         display: inline !important;
