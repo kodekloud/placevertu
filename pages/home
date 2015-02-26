@@ -53,7 +53,7 @@
                     <script id="holiday_hours_template" type="x-tmpl-mustache">
                         
                         <li class="">
-                            <span class="">{{holiday_name}}</span>
+                            <span class="holiday-name">{{holiday_name}}</span>
                             <div style="{{is_open_css}}; font-size:15px;">
                                 {{open_time_localized}} - {{close_time_localized}}
                             </div>
