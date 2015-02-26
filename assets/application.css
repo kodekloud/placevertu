@@ -679,6 +679,8 @@ footer .nav>li>a{
 }
 .checkbox input[type=checkbox]{
     margin-left: -16px !important;
+    margin-top:5px;
+    margin-bottom:20px;
 }
 .panel .panel-heading{
     border-radius:0px;
