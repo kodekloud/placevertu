@@ -1,3 +1,9 @@
+<style>
+    .head-area{
+        margin-bottom: 0px;
+    }
+</style>
+
 <div class="home">
      <div data-ride="carousel" class="carousel slide" id="carousel-example-generic">
           <!-- Indicators -->
