@@ -19,8 +19,8 @@
                           <div class="panel-title">
                               {{store_name}}
                           </div>
-                          <div>
-                            {{name}}&nbsp;<small>{{job_type}}</small>
+                          <div class="job_position">
+                            {{name}}&nbsp;<span class="job_time">{{job_type}}</span>
                           </div>
                         </div>
                         </a>
