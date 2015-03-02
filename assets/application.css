@@ -734,7 +734,8 @@ footer .nav>li>a{
 }
 
 .jobs .panel-heading .panel-title{
-   font-size:18px;
+   color:  #5d5d5d; 
+   font-size: 24px;
 }
 
 .jobs .panel{
