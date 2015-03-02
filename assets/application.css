@@ -738,6 +738,15 @@ footer .nav>li>a{
    font-size: 24px;
 }
 
+.job_position{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.job_time{
+    font-size: 18px;
+}
+
 .jobs .panel{
     border-radius:0px;
     border:solid;
