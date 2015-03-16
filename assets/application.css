@@ -223,7 +223,7 @@ img{
 .social-link{
     width:35px;
     float:left;
-    margin-top:30px;
+    margin-top:18px;
 }
 
 .btn-default:hover {
@@ -236,10 +236,6 @@ img{
 
 .social-link img{
     height:30px;
-}
-
-.social-link{
-    margin-top:20px;
 }
 
 .language{
