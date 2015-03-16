@@ -892,6 +892,9 @@ footer .nav>li>a{
 }
 
 @media(max-width:767px){
+    .carousel{
+        width: 100%;
+    }
 
     .visible-phone{
         display: inline !important;
