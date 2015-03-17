@@ -1056,9 +1056,14 @@ footer .nav>li>a{
   margin-bottom: 10px;
   color:#FFF;
   background-color:#000;
-  padding-top:15px;
+  padding-top:10px;
   padding-bottom:5px;
 }
+
+.clndr i{
+    vertical-align: -15%;
+}
+
 .cal1 .clndr .clndr-controls .month {
   float: left;
   width: 60%;
