@@ -664,6 +664,7 @@
             $('#en-CA').click(function(){
                 setPrimaryLanguage();
                 window.location.reload();
+                console.log('click');
                 $('#en-CA').addClass('langSelect');
                 $('#fr-CA').removeClass('langSelect');
             });
