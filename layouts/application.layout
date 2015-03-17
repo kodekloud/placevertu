@@ -707,7 +707,7 @@
             //loadMallData is located in mallmaverick.js, the call back method ensures the data is loaded
             loadMallDataCached(renderPageData);
             
-            $("#nav_items_sticky").sticky({topSpacing:20});
+            $("#nav_items_sticky").sticky({topSpacing:0});
             
             
             //real time search
