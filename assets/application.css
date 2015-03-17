@@ -311,6 +311,14 @@ img{
     margin-left:10px;
 }
 
+.fa-suitcase{
+    color:#096B9B;   
+}
+
+.fa-tag{
+    color:#CA2026;
+}
+
 .search-results .search-results-items{
     overflow-y:hidden;
     overflow-x:auto;
