@@ -939,7 +939,9 @@ footer .nav>li>a{
         width:  25px;
     }
     
-    
+    .phone-number{
+        margin-left:5px;
+    }
     .nav-items{
         padding-left:0px;
         padding-right:0px;
