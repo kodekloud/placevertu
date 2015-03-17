@@ -101,7 +101,7 @@
                     <span class="promotions-flag" style="display:{{has_promotions_css}}">
                         <i class="fa fa-tag fa-lg"></i>
                     </span>
-                    <span class="jobs-flag" style="display:{{has_job_css}}">
+                    <span class="jobs-flag" style="display:{{has_jobs_css}}">
                         <i class="fa fa-suitcase fa-lg"></i>
                     </span>
                     <span class="store-phone pull-right hidden-phone phone-number">{{phone}}</span>
