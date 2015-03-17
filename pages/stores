@@ -15,7 +15,8 @@
                     <div class="panel-heading">
                         <h4 class="panel-title">
                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" id="by_a_z">
-                              <span data-i18n="nav.subnav.stores_a-z"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png">
+                                <span data-i18n="nav.subnav.stores_a-z"></span>
+                                <i class="pull-right fa fa-chevron-down fa-lg"></i>
                             </a>
                         </h4>
                     </div>
