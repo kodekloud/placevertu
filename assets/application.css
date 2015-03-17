@@ -1069,6 +1069,7 @@ footer .nav>li>a{
   width: 60%;
   text-align: center;
   font-size:18px;
+  padding-top:3px;
   padding-bottom:5px;
 }
 .cal1 .clndr .clndr-controls .clndr-control-button {
