@@ -106,7 +106,7 @@
                     </span>
                     <span class="store-phone pull-right hidden-phone">{{phone}}</span>
                     <span class="store-phone pull-right">
-                        
+                        <i class="fa fa-phone fa-lg"></i>
                     </span>
                 </a>
             </script>
