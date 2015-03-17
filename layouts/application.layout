@@ -785,7 +785,7 @@
                     var contentHeight = $('#right-content').height();
                     if(sidebarHeight + windowTop < contentHeight){
                         if ($(window).scrollTop() >windowTop) {
-                            jQuery('#sidebar').css('top',navHeight); 
+                            jQuery('#sidebar').css('top',200); 
                         }else{
                             jQuery('#sidebar').css('top',0);
                         }
