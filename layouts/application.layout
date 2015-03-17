@@ -787,7 +787,7 @@
                         if ($(window).scrollTop() >110) {
                             jQuery('#sidebar').css('top',windowTop); 
                         }else{
-                            jQuery('#sidebar').css('top',80);
+                            jQuery('#sidebar').css('top',40);
                         }
                     }
                 });
