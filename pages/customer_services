@@ -5,12 +5,12 @@
             <img src="http://d33wyx0pza9yj4.cloudfront.net/sites/5431987c6e6f64102a020000/4d412bf5c9fdf38eed9830f9db5fa28a/img_customerservices.jpg" class="hidden-xs" alt="">
             <ul class="button-panel">
                 <li><a href="#gift_cards" class="btn btn-default"><span data-i18n="nav.subnav.gift_cards"></span>
-                <i class="fa fa-angle-left lg-2x"></i>
+                <i class="fa fa-angle-right lg-2x"></i>
                 <!--GIFT CARDS--></a></li>
-                <li><a href="#customer_services" class="btn btn-default"><span data-i18n="nav.subnav.customer_services"></span><i class="fa fa-angle-left lg-2x"></i><!--CUSTOMER SERVICES--></a></li>
-                <li><a href="#fitness_walking_club" class="btn btn-default"><span data-i18n="nav.subnav.fitness_walking_club"></span><i class="fa fa-angle-left lg-2x"></i><!--FITNESS WALKING CLUB--></a></li>
-                <li><a href="#welcome_to_families" class="btn btn-default"><span data-i18n="nav.subnav.welcome_to_families"></span><i class="fa fa-angle-left lg-2x"></i><!--WELCOME TO FAMILIES--></a></li>
-                <li><a href="#wifi" class="btn btn-default"><span data-i18n="nav.subnav.wifi"></span><i class="fa fa-angle-left lg-2x"></i><!--WIFI--></a></li>
+                <li><a href="#customer_services" class="btn btn-default"><span data-i18n="nav.subnav.customer_services"></span><i class="fa fa-angle-right lg-2x"></i><!--CUSTOMER SERVICES--></a></li>
+                <li><a href="#fitness_walking_club" class="btn btn-default"><span data-i18n="nav.subnav.fitness_walking_club"></span><i class="fa fa-angle-right lg-2x"></i><!--FITNESS WALKING CLUB--></a></li>
+                <li><a href="#welcome_to_families" class="btn btn-default"><span data-i18n="nav.subnav.welcome_to_families"></span><i class="fa fa-angle-right lg-2x"></i><!--WELCOME TO FAMILIES--></a></li>
+                <li><a href="#wifi" class="btn btn-default"><span data-i18n="nav.subnav.wifi"></span><i class="fa fa-angle-right lg-2x"></i><!--WIFI--></a></li>
             </ul>
         </div>
         <div class="col-xs-12 col-sm-8 col-md-9" id="right-content">
