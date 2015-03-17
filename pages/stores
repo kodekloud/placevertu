@@ -55,7 +55,8 @@
                     <div class="panel-heading">
                       <h4 class="panel-title">
                         <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" id="by_categories">
-                          <span data-i18n="nav.subnav.categories"></span><img src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/btn_search_arrow.png">
+                            <span data-i18n="nav.subnav.categories"></span>
+                            <i class="pull-right fa fa-chevron-down fa-lg"></i>
                         </a>
                       </h4>
                     </div>
