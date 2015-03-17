@@ -9,7 +9,7 @@
                             <h4 class="panel-title">
                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" id="by_a_z">
                                     <span data-i18n="nav.stores"></span>
-                                    <i class="fa fa-chevron-down fa-3x"></i>
+                                    <i class="fa fa-chevron-down fa-2x"></i>
                                 </a>
                             </h4>
                         </div>
