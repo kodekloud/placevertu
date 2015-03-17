@@ -1064,6 +1064,10 @@ footer .nav>li>a{
     vertical-align: -15%;
 }
 
+.button-panel i{
+    padding-top:3px;
+}
+
 .cal1 .clndr .clndr-controls .month {
   float: left;
   width: 60%;
