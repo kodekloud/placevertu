@@ -98,10 +98,10 @@
             <script id="store_item_template" type="x-tmpl-mustache">
                 <a class="list-group-item" href="../stores/{{slug}}">
                     <span class="store-name">{{name}}</span>
-                    <span class="promotions-flag" style="display:{{has_promotions_css}}">
+                    <span class="promotions-flag" style="display:">
                         <i class="fa fa-tag fa-lg"></i>
                     </span>
-                    <span class="jobs-flag" style="display:{{has_jobs_css}}">
+                    <span class="jobs-flag" style="display">
                         <i class="fa fa-suitcase fa-lg"></i>
                     </span>
                     <span class="store-phone pull-right hidden-phone phone-number">{{phone}}</span>
