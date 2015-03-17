@@ -39,6 +39,10 @@
     height: auto !important;
 }
 
+.langSelect{
+    color: #000000;
+}
+
 #pop-over{
     position:absolute;
     min-height:60px;
