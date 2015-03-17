@@ -664,16 +664,11 @@
             $('#en-CA').click(function(){
                 setPrimaryLanguage();
                 window.location.reload();
-                console.log('click');
-                $('#en-CA').addClass('langSelect');
-                $('#fr-CA').removeClass('langSelect');
             });
             
             $('#fr-CA').click(function(){
                 setSecondaryLanguage();
                 window.location.reload();
-                $('#fr-CA').addClass('langSelect');
-                $('#en-CA').removeClass('langSelect');
             });
             
             $('#en-CA-mobile').click(function(){
