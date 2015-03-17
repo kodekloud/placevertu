@@ -784,10 +784,10 @@
                     var sidebarHeight = $('#sidebar').height();
                     var contentHeight = $('#right-content').height();
                     if(sidebarHeight + windowTop < contentHeight){
-                        if ($(window).scrollTop() >80) {
+                        if ($(window).scrollTop() >10) {
                             jQuery('#sidebar').css('top',windowTop); 
                         }else{
-                            jQuery('#sidebar').css('top',10);
+                            jQuery('#sidebar').css('top',0);
                         }
                     }
                 });
