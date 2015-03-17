@@ -942,6 +942,7 @@ footer .nav>li>a{
     .promotions-flag{
         width:15px;
         display: inline-block;
+        margin-left: 5px;
     }
     .jobs-flag{
         width:15px;
