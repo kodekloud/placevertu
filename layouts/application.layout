@@ -620,7 +620,8 @@
     
         $(document).ready(function() {
             
-            
+                $('#fr-CA').addClass('langSelect');
+                $('#en-CA').removeClass('langSelect');
             //Using i18n for localization, for more info please visit http://i18next.com/
             i18n.init({preload: [sessionStorage.primary_locale,sessionStorage.secondary_locale],resGetPath: '../__lng__.json',fallbackLng: false }, function(t) {
                 var current_local = sessionStorage.primary_locale;
@@ -632,6 +633,7 @@
                 }else{
                     setSecondaryLanguage();
                 }
+                console.log(current_local);
             });
             
             
