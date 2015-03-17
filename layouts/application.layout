@@ -148,7 +148,9 @@
                             </p>
                         </div>
                         <div class="social-link" style="">
-                            <a href="https://www.facebook.com/placevertu" target="_blank"><img class="image" src="https://testbucketblurt.s3-us-west-2.amazonaws.com/sites/54205e6a6a616d39c5860000/04dd4f94364d574f0365c89cbafa12c4/social_fb.png" ></a>
+                            <a href="https://www.facebook.com/placevertu" target="_blank">
+                                <i class="fa fa-facebook-official"></i>                                
+                            </a>
                         </div>
                         <div class="search" style="" >
                             <p class="title" style="" data-i18n="general.search">&nbsp;</p>
