@@ -843,9 +843,8 @@ footer .nav>li>a{
     overflow:hidden;
 }
 
-.social-links img{
-    height:30px;
-    width:30px;
+.social-links i{
+    font-size:2em;
     margin-right:10px;
     margin-bottom:20px;
 }
