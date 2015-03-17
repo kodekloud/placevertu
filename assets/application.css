@@ -846,11 +846,11 @@ footer .nav>li>a{
     margin-top:10px;
 }
 
- .fa-facebook-official{
+ .facebook-share:hover{
     color: #355F9F;
 }
 
-.fa-twitter-square{
+ .twitter-share:hover{
     color: #2BA9E1;
 }
 
