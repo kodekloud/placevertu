@@ -109,9 +109,11 @@
         if(getRequestParam('lang') == 'fr'){
             sessionStorage.setItem('current_locale',sessionStorage.secondary_locale);
             $('#fr-CA').addClass('langSelect');
+            $('#en-CA').addClass('langSelect');
         }else if(getRequestParam('lang') == 'en'){
             sessionStorage.setItem('current_locale',sessionStorage.primary_locale);
             $('#en-CA').addClass('langSelect');
+            $('#fr-CA').addClass('langSelect');
         }
   
 
