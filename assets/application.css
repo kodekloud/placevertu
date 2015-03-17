@@ -843,14 +843,11 @@ footer .nav>li>a{
     overflow:hidden;
 }
 
-.social-links{
-    height: 30px;
-}
 
 .social-links i{
     font-size:2em;
     margin-right:10px;
-    margin-bottom:20px;
+    margin-bottom:10px;
 }
 
 
