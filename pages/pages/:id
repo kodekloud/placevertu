@@ -11,7 +11,7 @@
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
         var pages_json = "http://sq1.mallmaverick.com/pages/" + slug + ".json"
-        alert(pages_json);
+       // alert(pages_json);
         
         $.getJSON(pages_json).done(function(data) {
             //var pages_data = JSON.parse(data);
