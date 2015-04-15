@@ -8,7 +8,7 @@ dsdsd
         alert(pages_json);
         
         $.getJSON(pages_json).done(function(data) {
-            var pages_data = JSON.parse(data);
+            //var pages_data = JSON.parse(data);
             //console.log(pages_data);
             
             
