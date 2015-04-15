@@ -22,13 +22,6 @@
             $( "#page_content" ).fadeIn( "fast");
         });
 		
-		
-		
-		
-
-
-
-
     });
     
     
