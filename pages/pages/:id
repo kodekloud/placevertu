@@ -10,7 +10,7 @@
     $(document).ready(function() {
         var pathArray = window.location.pathname.split( '/' );
         var slug = pathArray[pathArray.length-1];
-        var pages_json = mm_base+ "/pages/" + slug + ".json"
+        var pages_json = "http://sq1.mallmaverick.com/pages/" + slug + ".json"
        // alert(pages_json);
         
         $.getJSON(pages_json).done(function(data) {
