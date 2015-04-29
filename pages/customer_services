@@ -7,7 +7,7 @@
                 <li><a href="#gift_cards" class="btn btn-default"><span data-i18n="nav.subnav.gift_cards"></span>
                 <i class="pull-right fa fa-angle-right fa-lg"></i>
                 <!--GIFT CARDS--></a></li>
-                <li><a href="#customer_services" class="btn btn-default"><div><span data-i18n="nav.subnav.customer_services"></span><i class=" fa fa-angle-right fa-lg"></i></div><!--CUSTOMER SERVICES--></a></li>
+                <li><a href="#customer_services" class="btn btn-default"><div><span data-i18n="nav.subnav.customer_services"></span><i class="pull-right fa fa-angle-right fa-lg"></i></div><!--CUSTOMER SERVICES--></a></li>
                 <li><a href="#fitness_walking_club" class="btn btn-default"><span data-i18n="nav.subnav.fitness_walking_club"></span><i class="pull-right fa fa-angle-right fa-lg"></i><!--FITNESS WALKING CLUB--></a></li>
                 <li><a href="#welcome_to_families" class="btn btn-default"><span data-i18n="nav.subnav.welcome_to_families"></span><i class="pull-right fa fa-angle-right fa-lg"></i><!--WELCOME TO FAMILIES--></a></li>
                 <li><a href="#wifi" class="btn btn-default"><span data-i18n="nav.subnav.wifi"></span><i class="pull-right fa fa-angle-right fa-lg"></i><!--WIFI--></a></li>
