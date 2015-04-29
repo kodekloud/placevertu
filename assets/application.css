@@ -633,6 +633,10 @@ footer .nav>li>a{
     border-width:2px;
 }
 
+.button-panel span{
+    width:80%;
+}
+
 .btn-default{
     width:100%;
     margin-top:7px;
