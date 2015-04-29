@@ -647,7 +647,7 @@
                                 imageMove: true,
                                 saveURL: '/web_pages/save_content_block',
                                 saveRequestType: 'POST',
-                	            saveParams: {name:'Contract Policy (French)', id: '54c7f08c6e6f64068c060000',web_page_id: '5447ebb66e6f641987220000',authenticity_token: '<%=form_authenticity_token%>'},
+                	            saveParams: {name:'POLITIQUE CONTRACTUELLE', id: '54c7f08c6e6f64068c060000',web_page_id: '5447ebb66e6f641987220000',authenticity_token: '<%=form_authenticity_token%>'},
                 	            autosave: false,
                 				minHeight: 200,
                 				imageUploadToS3: {
