@@ -698,7 +698,12 @@
                 <!-- WIFI (French) CONTENT BLOCK END -->
                 
             </div>
-
+            
+            
+            
+            <!-- Security -->
+            <a class="anchor" name="security"></a>
+            <h2 data-i18n="nav.subnav.security"><!--security--></h2>
         </div>
          
     </div>
