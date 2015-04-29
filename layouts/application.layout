@@ -552,6 +552,9 @@
                             <li>
                                 <a href="/customer_services#wifi" data-i18n="nav.subnav.wifi"></a>
                             </li>
+                            <li>
+                                <a href="/customer_services#security" data-i18n="nav.subnav.security"></a>
+                            </li>
                         </ul>
                     </li>
                     <li class="page-scroll" style="">
