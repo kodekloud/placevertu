@@ -560,7 +560,7 @@
             
             <!--CONTRACT POLICY-->
             <a  class="anchor" name="contract_policy"></a>
-            <h2 data-i18n="nav.subnav.contract_policy">BUILDING CONTRACT POLICY</h2>
+            <h2>BUILDING CONTRACT POLICY</h2>
             <div class="primary-locale">
                 <!-- Contract Policy (English) CONTENT BLOCK START-->    
                 <section id="editor" class="froala-element">
