@@ -1030,6 +1030,9 @@ footer .nav>li>a{
     .navbar-nav>li>.dropdown-menu {
         margin-top: -1px;
     }
+       .button-panel span {
+        width:94%;
+    }
 
 }
 
@@ -1039,7 +1042,9 @@ footer .nav>li>a{
         padding-left:14px;
         padding-right:14px;
     }
-    
+    .button-panel span {
+        width:92%;
+    }
     .home .banner{
         width:100%;
         padding-left:10px;
