@@ -625,7 +625,8 @@ footer .nav>li>a{
 }
 
 .button-panel span{
-    width:80%;
+    width:95%;
+    float:left;
 }
 
 .btn-default{
