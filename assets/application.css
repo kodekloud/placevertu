@@ -542,6 +542,7 @@ footer .nav>li>a{
 
 .feature-item h5, .feature-item .holiday-name{
     font-weight: bold;
+    display: block;
 }
 
 .bottom-nav {
