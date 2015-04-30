@@ -1029,8 +1029,8 @@ footer .nav>li>a{
 
 @media(min-width:1200px){
     .primary-locale .navbar-nav > li{
-        padding-left:28px;
-        padding-right:28px;
+        padding-left:27px;
+        padding-right:27px;
     }
     
     .secondary-locale .navbar-nav > li{
