@@ -13,9 +13,11 @@
             </script>
         </span>
     </h2>
+
         <!-- START MUSTACHE TEMPLATE FOR REGULAR HOURS ITEM ENGLISH-->
+        <span class="primary-locale">
         <script id="regular_hours_template" type="x-tmpl-mustache">
-                <span class="primary-locale" data-i18n="days_of_week.{{day_of_week}}"></span>
+                <span data-i18n="days_of_week.{{day_of_week}}"></span>
                 <div class="pull-right" style="{{is_open_css}};">
                     {{open_time_localized}} - {{close_time_localized}}
                 </div>
@@ -23,6 +25,7 @@
                     <!--Closed-->
                 </div>
         </script>
+    </span>
         <!-- END MUSTACHE TEMPLATE FOR HOURS ITEM-->
         
         
