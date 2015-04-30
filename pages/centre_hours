@@ -32,7 +32,7 @@
         <!-- START MUSTACHE TEMPLATE FOR REGULAR HOURS ITEM FRENCH-->
         <span class="secondary-locale">
         <script  id="regular_hours_fr_template" type="x-tmpl-mustache">
-                <span class="secondary-locale" data-i18n="days_of_week.{{day_of_week}}"></span>
+                <span data-i18n="days_of_week.{{day_of_week}}"></span>
                 <div class="pull-right" style="{{is_open_css}};">
                     {{open_time_localized_fr}} à {{close_time_localized_fr}}
                 </div>
