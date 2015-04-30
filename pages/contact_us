@@ -8,7 +8,6 @@
                 <li><a href="#how_to_get_here" class="btn btn-default" ><span data-i18n="nav.subnav.how_to_get_here"></span><i class="pull-right fa fa-angle-right fa-lg"></i><!--HOW TO GET HERE--></a></li>
                 <li><a href="#parking_information" class="btn btn-default"><span data-i18n="nav.subnav.parking_information"></span><i class="pull-right fa fa-angle-right fa-lg"></i><!--PARKINING INFORMATION--></a></li>
                 <li><a href="#administration_hours" class="btn btn-default"><span data-i18n="nav.subnav.administration_hours"></span><i class="pull-right fa fa-angle-right fa-lg"></i><!--ADMINISTRATION HOURS--></a></li>
-                <li><a href="#accessibility" class="btn btn-default"><span data-i18n="nav.subnav.accessibility"></span><i class="pull-right fa fa-angle-right fa-lg"></i><!--ACCESSIBILITY--></a></li>
                 <li><a href='#open_hours' class="btn btn-default" ><span data-i18n="nav.subnav.opening_hours"></span><i class="pull-right fa fa-angle-right fa-lg"></i><!--OPENING HOURS--></a></li>
             </ul>
         </div>
