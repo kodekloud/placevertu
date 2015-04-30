@@ -29,7 +29,7 @@
                             <p>{{{rich_description}}}</p>
                             <h5 style="display:{{has_store_info_css}}"><a href="../stores/{{store_slug}}">Store Details</a></h5>
                             <div style="display:{{has_contact_info_css}}">
-                                <h5>Contact Info</h5>
+                                <h5  data-i18n="general.no_jobs"><!--Contact Info--></h5>
                                 <div>{{contact_name}}</div>
                                 <div><a href="mailto:{{contact_email}}">{{contact_email}}</a></div>
                                 <div>{{contact_phone}}</div>
