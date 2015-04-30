@@ -27,7 +27,7 @@
                         <div id="collapse{{id}}" class="panel-collapse collapse">
                           <div class="panel-body">
                             <p>{{{rich_description}}}</p>
-                            <h5 style="display:{{has_store_info_css}}"><a href="../stores/{{store_slug}}"><p data-i18n="general.store_details"></p>Store Details</a></h5>
+                            <h5 style="display:{{has_store_info_css}}"><a href="../stores/{{store_slug}}"><span data-i18n="general.store_details"></span></a></h5>
                             <div style="display:{{has_contact_info_css}}">
                                 <h5 data-i18n="general.contact_info"></h5>
                                 <div>{{contact_name}}</div>
