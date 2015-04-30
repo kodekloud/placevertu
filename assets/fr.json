@@ -80,6 +80,8 @@
       "submit":"Soumettre",
       "agree_newsletter":"Je consens à recevoir des courriels de Place Vertu.",
       "visit_website" : " Visitez le Site",
+        "contact_info":"Contact",
+      "store_details" :"Information sur le magasin",
       "search" :"Recherche"
   }
 }
