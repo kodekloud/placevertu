@@ -14,7 +14,7 @@
 }
 
 @font-face {
-       font-family: 'dinalternatebold';
+       font-family: 'dinalternate';
     src: url('http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/2db26a523885b0171b7e26996ca1d3c5/dinalternatebold.eot');
     src: 
         local('http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/2db26a523885b0171b7e26996ca1d3c5/dinalternatebold.eot'),
@@ -23,8 +23,7 @@
          url('http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/697c8637a60f16a79d33413f790bd652/DINbek%20Bold.ttf') format('truetype'),
          url('http://kodekloud.s3.amazonaws.com/sites/5447ebb66e6f641987020000/2db26a523885b0171b7e26996ca1d3c5/dinalternatebold.svg#DINAlternateBold') format('svg');
          
-        font-weight: normal;
-    font-style: normal; 
+
 }
 
 #zControls {
