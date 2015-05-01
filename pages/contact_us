@@ -1,6 +1,6 @@
 <div class="container">
     <div class="row">
-    <div class="col-xs-12 col-sm-4 col-md-3"  id="">
+    <div class="col-xs-12 col-sm-4 col-md-3"  id="sidebar">
             <h1 class="hidden-xs">Contact Us</h1>
             <img src="http://d33wyx0pza9yj4.cloudfront.net/sites/5431987c6e6f64102a020000/4d412bf5c9fdf38eed9830f9db5fa28a/img_contactus.jpg" class="hidden-xs" alt="">
             <ul class="button-panel">
