@@ -10,6 +10,7 @@
 $(document).ready(function() {
         
         function renderPageData(){
+             renderPostListTemplate("#blog_content_script", "#blog_content", getPostList()[0])
             //renders the events list by referencing the template id and the html id
             //for where to place the rendered content. See mallmaverick.js for implementation
             console.log(getPostList())
@@ -21,5 +22,25 @@ $(document).ready(function() {
         loadMallDataCached(renderPageData);
     });
     
-    
+    function renderPostListTemplate(blog_template, blog_block, post){
+
+    var item_list = [];
+    var item_rendered = [];
+    var blog_template_html = $(blog_template).html();
+    Mustache.parse(blog_template_html);   // optional, speeds up future uses
+
+    $.each( post , function( key, val ) {
+        item_list.push(val);
+    });
+    item_list.sort(function(a, b){
+        if(a.publish_date > b.publish_date) return -1;
+        if(a.publish_date < b.publish_date) return 1;
+        return 0;
+    });
+    $.each( item_list , function( key, val ) {
+            var blog_rendered = Mustache.render(blog_template_html,val);
+            item_rendered.push(blog_rendered);
+    });
+    $(blog_block).html(item_rendered.join(''));
+}
 </script>    
