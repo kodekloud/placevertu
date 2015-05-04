@@ -12,7 +12,7 @@ $(document).ready(function() {
         function renderPageData(){
             //renders the events list by referencing the template id and the html id
             //for where to place the rendered content. See mallmaverick.js for implementation
-            console.log(getBlogByName("Shop-The-Look"))
+            console.log(getPostList())
             $('#loading').hide();
             $('#page_content').fadeIn('fast');
             
