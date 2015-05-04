@@ -30,7 +30,7 @@ $(document).ready(function() {
     $.each( post , function( key, val ) {
         item_list.push(val);
     });
-    console.log(item_list.html_body)
+    console.log(item_list["html_body"])
     $(blog_block).html(item_list.join(''));
 }
 </script>    
