@@ -2,7 +2,7 @@
     <h1>Get the Look</h1>
     <div id="blog_content">
         <script id="blog_content_script" type="x-tmpl-mustache">
-            
+            {{html_body}}
         </script>
     </div>
 </div>
