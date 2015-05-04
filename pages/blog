@@ -1,6 +1,10 @@
 <div class="blog_body">
     <h1>Get the Look</h1>
-    <div>{{post.body}}</div>
+    <div id="blog_content">
+        <script id="blog_content_script" type="">
+            
+        </script>
+    </div>
 </div>
 <script>
 $(document).ready(function() {
