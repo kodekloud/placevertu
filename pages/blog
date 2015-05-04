@@ -22,7 +22,7 @@ $(document).ready(function() {
     });
     
     function renderPostListTemplate(blog_template, blog_block, post){
-
+        console.log(post);
     var item_list = [];
     var blog_template_html = $(blog_template).html();
     Mustache.parse(blog_template_html);   // optional, speeds up future uses
