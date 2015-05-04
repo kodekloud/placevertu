@@ -22,14 +22,15 @@ $(document).ready(function() {
     });
     
     function renderPostListTemplate(blog_template, blog_block, post){
-        var item_list = [];
-        var blog_template_html = $(blog_template).html();
-        Mustache.parse(blog_template_html);   // optional, speeds up future uses
-    
-        $.each( post , function( key, val ) {
-            item_list.push(val);
-        });
-        console.log(item_list)
-        $(blog_block).html(item_list.join(''));
+       var item_list = [];
+       var blog_template_html = $(blog_template).html();
+       Mustache.parse(blog_template_html);   // optional, speeds up future uses
+   
+      
+       var blog_rendered = Mustache.render(blog_template_html,post);
+       item_list.push(blog_rendered);
+     
+
+       $(blog_block).html(item_list.join(''));
     }
 </script>    
