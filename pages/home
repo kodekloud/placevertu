@@ -92,7 +92,7 @@
                        <label for="subscribe_email" style="display:none"> subscribe email </label>
                             <input id="fieldEmail" name="cm-tydkit-tydkit" type="email" required placeholder="enter email" /> 
                        <div class="checkbox">
-                        <span style="font-size:12px">
+                        <span style="font-size:11px">
                           <input type="checkbox" class="info_check" id="agree_terms" style="width:15px"/>
                           <span data-i18n="general.agree_newsletter"></span>
                         </span>
