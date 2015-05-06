@@ -74,7 +74,7 @@
                     </ul>
                 </div>
                 <div id="hours_empty_section_id"></div>
-                <a href="../contact_us#open_hours" class="btn btn-default"  data-i18n="general.click_more_button"></a>
+                <a href="../contact_us#open_hours" class="btn btn-default"  style="font-size:14px;" data-i18n="general.click_more_button"></a>
             </div>
             <div class="col-sm-12 col-sm-6 col-md-3 feature-item">
                <div class="header" data-i18n="general.directions"></div>
