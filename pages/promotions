@@ -49,7 +49,7 @@
                                 <h4><a href="{{ promotionable_url }}">{{ promotionable_name }}</a></h4>
                             </div>
                             <div class="dates">
-                                {{ start_date }} to {{ end_date }}
+                                {{ start_date }} - {{ end_date }}
                             </div>
                             <div class="description">
                                 <p>{{{ description }}}</p>
