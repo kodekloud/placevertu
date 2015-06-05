@@ -144,11 +144,11 @@
                             <p class="text">
                                 <a id="en-CA" href="#" data-i18n="nav.locale.english"></a>
                                 <span class="signature-item">|</span>
-                                <a id="fr-CA" href="#" data-i18n="nav.locale.french"></a>
+                                <a id="fr-CA" href="#" data-i18n="nav.locale.french"></a>&nbsp; &nbsp;
                             </p>
                         </div>
                         <div class="social-link" style="">
-                          &nbsp; &nbsp; <a href="https://www.facebook.com/placevertu" target="_blank">
+                           <a href="https://www.facebook.com/placevertu" target="_blank">
                                 <i class="fa fa-facebook-official"></i>                                
                             </a>
                         </div>
