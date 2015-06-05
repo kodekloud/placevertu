@@ -144,10 +144,10 @@
                             <p class="text">
                                 <a id="en-CA" href="#" data-i18n="nav.locale.english"></a>
                                 <span class="signature-item">|</span>
-                                <a id="fr-CA" href="#" data-i18n="nav.locale.french"></a>&nbsp; 
+                                <a id="fr-CA" href="#" data-i18n="nav.locale.french"></a>
                             </p>
                         </div>
-                        <div class="social-link" style="">
+                       &nbsp;  <div class="social-link" style="">
                            <a href="https://www.facebook.com/placevertu" target="_blank">
                                 <i class="fa fa-facebook-official"></i>                                
                             </a>
