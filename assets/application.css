@@ -189,10 +189,11 @@ img{
     
 }
 
-#sidebar h1{
+.sidebar-title{
     font-weight: bold;
     margin-bottom: 20px;
 }
+
 
 .site-controls{
     width:360px;
