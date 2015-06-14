@@ -519,7 +519,7 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll" style="">
-                        <a href="../stores" data-i18n="nav.directory"></a>
+                        <a href="../stores" data-i18n="nav.stores"></a>
                     </li>
                     <li class="page-scroll" style="">
                         <a href="../promotions" data-i18n="nav.promotions"></a>
