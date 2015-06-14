@@ -553,9 +553,6 @@
                         </ul>
                     </li>
                     <li class="page-scroll" style="">
-                        <a href="/jobs" data-i18n="nav.jobs"></a>
-                    </li>
-                    <li class="page-scroll" style="">
                         <a href="/about_us" data-i18n="nav.about"></a>
                         <ul class="sub-bottom">
                             <li><a href="/about_us#place_vertu"  ><span data-i18n="nav.subnav.place_vertu"></span></a></li>
