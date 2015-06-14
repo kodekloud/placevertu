@@ -2,6 +2,7 @@
     .header-area{
         margin-bottom: 0px;
     }
+    .page_content_100%;
     .home{
         width: 960px;
     }
