@@ -2,6 +2,9 @@
     .header-area{
         margin-bottom: 0px;
     }
+    .home{
+        width: 960px;
+    }
 </style>
 
 <div class="home">
