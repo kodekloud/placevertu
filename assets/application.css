@@ -863,6 +863,11 @@ footer .nav>li>a{
     word-wrap: break-all;
 }
 
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
 .footer-signature{
     padding-top:20px;
     padding-bottom:10px;
