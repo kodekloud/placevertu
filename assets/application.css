@@ -12,6 +12,8 @@
   
 .sticky-wrapper{
     height: auto !important;
+    max-width:960px;
+    margin: auto;
 }
 
 .langSelect{
