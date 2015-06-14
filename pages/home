@@ -2,9 +2,7 @@
     .header-area{
         margin-bottom: 0px;
     }
-    .page_content{
-        width: 100% !important;
-    }
+
     .home{
         max-width: 960px;
     }
