@@ -48,6 +48,7 @@
       "6": "Samedi"
   },
   "general":{
+      "to": "au";
       "hours": "Heures",
       "todays_hours":"Heures d'ouverture",
       "closed":"Fermé",
