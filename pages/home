@@ -2,7 +2,9 @@
     .header-area{
         margin-bottom: 0px;
     }
-    .page_content_100%;
+    .page_content{
+        width: 960px;
+    }
     .home{
         width: 960px;
     }
