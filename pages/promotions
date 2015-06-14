@@ -140,5 +140,11 @@
         
         loadMallDataCached(renderPageData);
     });
+     function sortByStartDate(a, b){
+        var aId = a.start_date;
+        var bId = b.start_date;
+        
+        return ((aId > bId ) ? -1 : ((aId < bId) ? 1 : 0));
+    }
     
 </script>
