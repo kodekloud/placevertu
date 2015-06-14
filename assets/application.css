@@ -840,6 +840,7 @@ footer .nav>li>a{
 .bottom-nav{
     background-color:#FFF;
     padding-bottom:30px;
+    max-width: 960px;
 }
 
 .bottom-nav .nav>li>a{
