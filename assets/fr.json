@@ -50,7 +50,7 @@
   "general":{
       "to": "au",
       "hours": "Heures",
-      "todays_hours":"Heures d'ouverture",
+      "todays_hours":"HEURES D’OUVERTURE",
       "closed":"Fermé",
       "regular_hours":"Heures d'ouverture",
       "holiday_hours":"Horaire des jours fériés",
