@@ -71,7 +71,7 @@
 
 <span class="secondary-locale">
     <h2>
-        <span id="todays-hours">
+        <span id="todays-hours_fr">
             <script id="todays_hours_template_fr" type="x-tmpl-mustache">
                 <span data-i18n="general.todays_hours"><!--Today's Hours--></span>
                 <span style="{{is_open_css}};">
