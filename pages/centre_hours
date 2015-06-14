@@ -28,7 +28,7 @@
         
 
     
-    <h4 data-i18n="general.regular_hours"><!--Regular Hours--></h4>
+    <h3 data-i18n="general.regular_hours"><!--Regular Hours--></h3>
     <ul class="list-group">
         <li class="list-group-item" id="reg_hours_sun"><!--this content to be rendered by renderRegularDayHours(..) --></li>
         <li class="list-group-item" id="reg_hours_mon"><!--this content to be rendered by renderRegularDayHours(..) --></li>
@@ -58,7 +58,7 @@
             </li>
         </script>
         <!-- END MUSTACHE TEMPLATE FOR HOURS ITEM-->
-        <h4 data-i18n="general.holiday_hours"><!--Holiday Hours--></h4>
+        <h3 data-i18n="general.holiday_hours"><!--Holiday Hours--></h3>
         <ul class="list-group" id="holiday-hours">
             <!--this content to be rendered by renderHolidayHours(..) -->
         </ul>
@@ -98,7 +98,7 @@
         
 
     
-    <h4 data-i18n="general.regular_hours"><!--Regular Hours--></h4>
+    <h3 data-i18n="general.regular_hours"><!--Regular Hours--></h3>
     <ul class="list-group">
         <li class="list-group-item" id="reg_hours_sun_fr"><!--this content to be rendered by renderRegularDayHours(..) --></li>
         <li class="list-group-item" id="reg_hours_mon_fr"><!--this content to be rendered by renderRegularDayHours(..) --></li>
@@ -128,7 +128,7 @@
             </li>
         </script>
         <!-- END MUSTACHE TEMPLATE FOR HOURS ITEM-->
-        <h4 data-i18n="general.holiday_hours"><!--Holiday Hours--></h4>
+        <h3 data-i18n="general.holiday_hours"><!--Holiday Hours--></h3>
         <ul class="list-group" id="holiday-hours_fr">
             <!--this content to be rendered by renderHolidayHours(..) -->
         </ul>
