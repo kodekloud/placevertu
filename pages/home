@@ -3,10 +3,10 @@
         margin-bottom: 0px;
     }
     .page_content{
-        width: 960px;
+        width: 100%;
     }
     .home{
-        width: 960px;
+        max-width: 960px;
     }
 </style>
 
