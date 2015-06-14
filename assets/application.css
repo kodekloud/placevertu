@@ -220,6 +220,7 @@ img{
 .btn-default:hover {
     background-color: #F2F2F2;
 }
+
 .nav>li>a {
   padding: 10px 14px;
 }
@@ -1035,8 +1036,8 @@ footer .nav>li>a{
 
 @media(min-width:1200px){
     .primary-locale .navbar-nav > li{
-        padding-left:27px;
-        padding-right:27px;
+        padding-left:10px;
+        padding-right:10px;
     }
     
     .secondary-locale .navbar-nav > li{
