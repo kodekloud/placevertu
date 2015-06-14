@@ -143,7 +143,7 @@ img{
 .carousel {
     margin: 0 auto;
     position: relative;
-    width: 80%;
+    width: 100%;
 }
 
 .img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
@@ -473,7 +473,6 @@ img{
     color:#FFF;
     z-index:2;
 }
-
 .navbar-default .navbar-nav>li>a{
     color:#FFF;
     text-transform: uppercase;
