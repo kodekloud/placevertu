@@ -846,6 +846,9 @@ footer .nav>li>a{
     text-align:left;
 }
 
+.sub-bottom{
+    padding-left:15px;
+}
 .bottom-nav .nav>li>a:hover{
     background-color:#FFF;
 }
