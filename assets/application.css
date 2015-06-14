@@ -991,7 +991,8 @@ footer .nav>li>a{
      
 
     .secondary-locale .nav>li>a{
-        padding: 15px 0px;
+        padding-left:15px;
+        padding-right:15px;
     }
     
     .secondary-locale .navbar-nav > li{
