@@ -706,6 +706,7 @@
     });
     
     if(sessionStorage.current_locale == "fr-CA"){
-            
+        $("#charities_text").css("font-size", "13"); 
+        $("#green_text").css("font-size", "13"); 
     }
 </script>        
