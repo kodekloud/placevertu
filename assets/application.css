@@ -913,6 +913,13 @@ footer .nav>li>a{
 }
 
 @media(max-width:767px){
+    .footer-signature .col-md-2{
+        width:100%;
+    }
+    .footer-signature .col-md-8{
+        width:100%;
+    }
+    
     .carousel{
         width: 100%;
     }
