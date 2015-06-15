@@ -263,6 +263,12 @@ img{
     float:left;
 }
 
+.footer-signature .col-2{
+    width:12%;
+}
+.footer-signature .col-8{
+    width:76%;
+}
 .container{
     max-width: 960px;
     padding-left: 0px;
