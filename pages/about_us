@@ -704,4 +704,8 @@
         $('#loading').hide();
         $('#page_content').fadeIn('fast');
     });
+    
+    if(sessionStorage.current_locale == "fr-CA"){
+            
+    }
 </script>        
