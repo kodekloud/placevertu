@@ -706,8 +706,7 @@
     });
     
     if(sessionStorage.current_locale == "fr-CA"){
-        alert('works');
-        $("#charities_text").css({"margin-top": "1px", "font-size": "13px"}); 
-        $("#green_text").css({"margin-top": "1px", "font-size": "13px"}); 
+        $("#charities_text").css({"margin-top": "2px", "font-size": "13px"}); 
+        $("#green_text").css({"margin-top": "2px", "font-size": "13px"}); 
     }
 </script>        
