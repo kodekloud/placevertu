@@ -153,6 +153,22 @@
         
     </div>
     
+    
+    
+     <h3 data-i18n="general.store_hours"></h3>
+    <div id="store_hours_not_empty_section_id_fr" style="display:inline;">
+        <!--START MUSTACHE TEMPLATE FOR STORE HOURS ITEM-->
+        
+        <div class="row">
+            <script id="store_hours_template_fr" type="x-tmpl-mustache">
+                <div class="col-md-5">
+                    <p><strong>{{name}}</strong></p>
+                    {{{hours_text}}}
+                </div>
+            </script>
+        </div>
+         <!--END MUSTACHE TEMPLATE FOR STORE HOURS ITEM-->
+    </div>
     </span>
 </div>
 <script>
