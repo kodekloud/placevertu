@@ -216,6 +216,8 @@
         });
         
         
+        
+        
     }
     
     function getStoreDay(day_week){
