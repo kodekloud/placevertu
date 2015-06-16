@@ -68,34 +68,34 @@
     </div>
     
     
-    <!--<div id="store_hours_not_empty_section_id" style="display:inline;">-->
-        <!-- START MUSTACHE TEMPLATE FOR STORE HOURS ITEM-->
-    <!--    <script id="store_hours_template" type="x-tmpl-mustache">-->
-    <!--        {{meta_keywords}}-->
-    <!--        <li class="list-group-item clearfix">-->
-    <!--            <spanclass="pull-left">-->
-    <!--                {{holiday_name}}</br>-->
-    <!--                {{holiday_date_localized}}-->
-    <!--            </span>-->
-    <!--            <span class="pull-right">-->
-    <!--                <span style="{{is_open_css}};">-->
-    <!--                    {{open_time_localized}} - {{close_time_localized}}-->
-    <!--                </span>-->
-    <!--                <span style="{{is_closed_css}};">-->
-    <!--                    Closed-->
-    <!--                </span>-->
-    <!--            </span>-->
-    <!--        </li>-->
-    <!--    </script>-->
-        <!-- END MUSTACHE TEMPLATE FOR STORE HOURS ITEM-->
+    <div id="store_hours_not_empty_section_id" style="display:inline;">
+         START MUSTACHE TEMPLATE FOR STORE HOURS ITEM
+        <script id="store_hours_template" type="x-tmpl-mustache">
+            {{meta_keywords}}
+            <li class="list-group-item clearfix">
+                <spanclass="pull-left">
+                    {{holiday_name}}</br>
+                    {{holiday_date_localized}}
+                </span>
+                <span class="pull-right">
+                    <span style="{{is_open_css}};">
+                        {{open_time_localized}} - {{close_time_localized}}
+                    </span>
+                    <span style="{{is_closed_css}};">
+                        Closed
+                    </span>
+                </span>
+            </li>
+        </script>
+         END MUSTACHE TEMPLATE FOR STORE HOURS ITEM
         <h3 data-i18n="general.store_hours"><!--Store Hours--></h3>
-    <!--    <ul class="list-group" id="holiday-hours">-->
-            <!--this content to be rendered by renderStoreHours(..) -->
-    <!--    </ul>-->
-    <!--</div>-->
-    <!--<div id="hours_empty_section_id">-->
+        <ul class="list-group" id="holiday-hours">
+            this content to be rendered by renderStoreHours(..) 
+        </ul>
+    </div>
+    <div id="hours_empty_section_id">
         
-    <!--</div>-->
+    </div>
     
     </span>
 
