@@ -200,7 +200,6 @@
             var hours = val.store_hours;
             var hours_text = '';
             
-            console.log(hours);
             if (hours.length > 0){
                 $.each( hours, function( key, value ) { 
                     var day = getStoreDay(value.day_of_week);
