@@ -75,7 +75,7 @@
             <script id="store_hours_template" type="x-tmpl-mustache">
                 <div class="col-md-5">
                     <p><strong>{{name}}</strong></p>
-                    <p>{{hours_text}}</p>
+                    <p>{{{hours_text}}}</p>
                 </div>
             </script>
         </div>
