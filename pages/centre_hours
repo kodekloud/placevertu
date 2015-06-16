@@ -88,7 +88,7 @@
             </li>
         </script>
         <!-- END MUSTACHE TEMPLATE FOR STORE HOURS ITEM-->
-        <h3 data-i18n="general.holiday_hours"><!--Store Hours--></h3>
+        <h3 data-i18n="general.store_hours"><!--Store Hours--></h3>
         <ul class="list-group" id="holiday-hours">
             <!--this content to be rendered by renderStoreHours(..) -->
         </ul>
