@@ -229,5 +229,59 @@
         
         
     }
+    
+    function getStoreDay(day_week){
+        var day;
+        if(sessionStorage.current_locale == sessionStorage.secondary_locale){
+            switch (day_week){
+                case 0:
+                    day = "Dimanche";
+                    break;
+                case 1:
+                    day = "Lundi";
+                    break;
+                case 2:
+                    day = "Mardi";
+                    break;
+                case 3:
+                    day = "Mercredi";
+                    break;
+                case 4:
+                    day = "Jeudi";
+                    break;
+                case 5:
+                    day = "Vendredi";
+                    break;
+                case 6:
+                    day = "Samedi";
+                    break;
+            }
+        } else {
+            switch (day_week){
+                case 0:
+                    day = "Sunday";
+                    break;
+                case 1:
+                    day = "Monday";
+                    break;
+                case 2:
+                    day = "Tuesday";
+                    break;
+                case 3:
+                    day = "Wednesday";
+                    break;
+                case 4:
+                    day = "Thursday";
+                    break;
+                case 5:
+                    day = "Friday";
+                    break;
+                case 6:
+                    day = "Saturday";
+                    break;
+            }
+        }
+        return day;
+    }
 </script>
 
