@@ -81,9 +81,6 @@
         </div>
          <!--END MUSTACHE TEMPLATE FOR STORE HOURS ITEM-->
     </div>
-    <div id="store_hours_empty_section_id">
-        
-    </div>
     
     </span>
 
