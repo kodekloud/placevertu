@@ -211,6 +211,7 @@
                     }
                     hours_text += day_text;  
                 });
+                count += 1;
             } 
         });
         
