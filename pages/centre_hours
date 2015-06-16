@@ -140,7 +140,6 @@
     </span>
 </div>
 <script>
-
     $(document).ready(function() {
         
         function renderPageData(){
