@@ -212,7 +212,10 @@
                     hours_text += day_text;  
                 });
                 count += 1;
-            } 
+                val.hours_text = hours_text;
+                item_list.push(val);
+            }
+             
         });
         
         
