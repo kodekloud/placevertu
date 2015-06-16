@@ -202,7 +202,7 @@
             
             if (hours.length > 0){
                 $.each( hours, function( key, value ) { 
-                    consoloe.log(val);
+                    console.log(val);
                     var day = getStoreDay(value.day_of_week);
                     setLocaleDateFormats(value);
                     if(sessionStorage.current_locale == sessionStorage.secondary_locale){
