@@ -197,8 +197,9 @@
         Mustache.parse(template_html);
         var count = 0;
         
-        $.each( hours , function( key, val ) {
+        $.each( store , function( key, val ) {
             localizeObject(val);
+            get
             
         });
     }
