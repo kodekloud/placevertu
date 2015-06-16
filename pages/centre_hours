@@ -190,7 +190,7 @@
     });
     
     function renderStoreHours(template_id, html_id, store){
-        var item_list = [];
+        var item_rendered = [];
         var template_html = $(template_id).html();
         Mustache.parse(template_html);
         var count = 0;
@@ -213,10 +213,14 @@
                 });
                 count += 1;
                 val.hours_text = hours_text;
-                item_list.push(val);
+                var blog_rendered = Mustache.render(blog_template_html,val);
+                item_rendered.push(blog_rendered);
             }
+            
              
         });
+        
+            $(blog_block).html(item_rendered.join(''));
         
         
         
