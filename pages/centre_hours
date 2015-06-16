@@ -190,7 +190,9 @@
     });
     
     function renderStoreHours(){
-        
+        var item_list = [];
+        var template_html = $(template_id).html();
+        Mustache.parse(template_html);
     }
 </script>
 
