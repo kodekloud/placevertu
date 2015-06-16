@@ -83,6 +83,7 @@
       "visit_website" : " Visitez le Site",
         "contact_info":"Contact",
       "store_details" :"Information sur le magasin",
+      "store_hours" : "STORE SPECIFIC OPENING HOURS",
       "search" :"Recherche"
   }
 }
