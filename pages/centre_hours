@@ -170,7 +170,7 @@
             renderRegularDayHours('#regular_hours_template','#reg_hours_fri',5);
             renderRegularDayHours('#regular_hours_template','#reg_hours_sat',6);
           
-            var store_list = get
+            var store_list = getStoresList();
             renderHolidayHours('#holiday_hours_template','#holiday-hours','#hours_not_empty_section_id','#hours_empty_section_id',getPropertyHours(),100);
             renderTodaysHours('#todays_hours_template','#todays-hours');
             //renderStoreHours('#store_hours_template','#holiday-hours','#store_hours_not_empty_section_id','#store_hours_empty_section_id');
