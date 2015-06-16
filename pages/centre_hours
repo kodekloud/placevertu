@@ -93,7 +93,7 @@
             this content to be rendered by renderStoreHours(..) 
         </ul>
     </div>
-    <div id="hours_empty_section_id">
+    <div id="store_hours_empty_section_id">
         
     </div>
     
