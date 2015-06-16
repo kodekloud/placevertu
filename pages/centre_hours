@@ -211,20 +211,7 @@
                     }
                     hours_text += day_text;  
                 });
-            } else {
-                for (var i=0 ; i < 7 ; i++){
-                    var day_hours = getRegHoursForDayIndex(i);
-                    var day = getStoreDay(i);
-                    setLocaleDateFormats(day_hours);
-                    if(sessionStorage.current_locale == sessionStorage.secondary_locale){
-                        var day_text = '<p>'+ day + ': ' + day_hours.open_time_localized_fr + ' à ' + day_hours.close_time_localized_fr +'</p>'; 
-                    } else{
-                        var day_text = '<p>'+ day + ': ' + day_hours.open_time_localized + ' - ' + day_hours.close_time_localized +'</p>';
-                    }
-                    hours_text += day_text; 
-                }
-            }
-            
+            } 
         });
         
         
