@@ -68,22 +68,20 @@
     </div>
     
     
-    <div id="store_hours_not_empty_section_id" style="display:inline;">
+    <!--<div id="store_hours_not_empty_section_id" style="display:inline;">-->
         <!--START MUSTACHE TEMPLATE FOR STORE HOURS ITEM-->
-        <h3 data-i18n="general.store_hours"></h3>
-        <div class="row">
-            <script id="store_hours_template" type="x-tmpl-mustache">
-                <div class="col-md-5">
-                    <p><strong>{{name}}</strong></p>
-                    <p></p>
-                </div>
-            </script>
-        </div>
+    <!--    <h3 data-i18n="general.store_hours"></h3>-->
+    <!--    <div class="row">-->
+    <!--        <script id="store_hours_template" type="x-tmpl-mustache">-->
+    <!--            <div class="col-md-5">-->
+    <!--                <p><strong>{{name}}</strong></p>-->
+    <!--                <p></p>-->
+    <!--            </div>-->
+    <!--        </script>-->
+    <!--    </div>-->
          <!--END MUSTACHE TEMPLATE FOR STORE HOURS ITEM-->
-    </div>
-    <div id="store_hours_empty_section_id">
-        
-    </div>
+    <!--</div>-->
+
     
     </span>
 
