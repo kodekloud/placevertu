@@ -73,7 +73,7 @@
         
         <div class="row">
             <script id="store_hours_template" type="x-tmpl-mustache">
-                <div class="col-md-5" style="margin-bottom:10px;">
+                <div class="col-md-5" style="margin-bottom:15px;">
                     <p><strong>{{name}}</strong></p>
                     {{{hours_text}}}
                 </div>
@@ -161,7 +161,7 @@
         
         <div class="row">
             <script id="store_hours_template_fr" type="x-tmpl-mustache">
-                <div class="col-md-5" style="margin-bottom:10px;">
+                <div class="col-md-5" style="margin-bottom:15px;">
                     <p><strong>{{name}}</strong></p>
                     {{{hours_text}}}
                 </div>
