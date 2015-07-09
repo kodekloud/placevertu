@@ -1205,7 +1205,7 @@ footer .nav>li>a{
 }
 .cal1 .clndr .clndr-table tr .day .today .event{
     
-    color:#000;
+    color:#000 !important;
 }
 .cal1 .clndr .clndr-table tr .day.event:hover {
   
