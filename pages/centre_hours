@@ -217,6 +217,7 @@
         $.each( store , function( key, val ) {
             localizeObject(val);
             var hours = getHoursForIds(val.store_hours);
+            console.log(hours);
             var hours_text = '';
             
             if (hours.length > 0){
