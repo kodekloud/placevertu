@@ -709,7 +709,7 @@
                 
             }
             //loadMallData is located in mallmaverick.js, the call back method ensures the data is loaded
-            loadMallDataCached(renderPageData);
+            loadMallData(renderPageData);
             
             $("#nav_items_sticky").sticky({topSpacing:0});
             
